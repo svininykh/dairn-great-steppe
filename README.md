@@ -1,8 +1,6 @@
 # DAIRN: GREAT STEPPE
-
-> **Каждый путь оставляет след.**
-
 ![DAIRN: GREAT STEPPE](https://github.com/svininykh/wesnoth_great_steppe/blob/696ae99203b8b53bc078d303ffc0bc3a51e9f056/assets/logos/DAIRN-Great-Steppe.png)
+> **Каждый путь оставляет след.**
 
 **DAIRN: GREAT STEPPE** — независимый настольный сеттинг и серия игровых сцен для ведущего, совместимых с **Cairn 2e** и основанных на мире **Battles of the Great Steppe**.
 
