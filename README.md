@@ -2,6 +2,8 @@
 
 > **Каждый путь оставляет след.**
 
+![DAIRN: GREAT STEPPE](https://github.com/svininykh/wesnoth_great_steppe/blob/696ae99203b8b53bc078d303ffc0bc3a51e9f056/assets/logos/DAIRN-Great-Steppe.png)
+
 **DAIRN: GREAT STEPPE** — независимый настольный сеттинг и серия игровых сцен для ведущего, совместимых с **Cairn 2e** и основанных на мире **Battles of the Great Steppe**.
 
 Проект переносит принципы приключенческой игры Cairn в открытую Великую Степь. Здесь решения определяются не заранее заданным сюжетом, а поступками героев, особенностями местности, погодой, расстояниями, доступными припасами и последствиями сделанного выбора.
@@ -18,7 +20,7 @@
 | English | **DAIRN: Great Steppe Universe** |
 | Қазақша | **DAIRN: Ұлы Дала Ғаламы** |
 
-- [Общая концепция Вселенной](https://github.com/svininykh/wesnoth_great_steppe/blob/main/docs/universe/Great-Steppe-Universe.ru.md)
+- [Общая концепция Вселенной](https://github.com/svininykh/wesnoth_great_steppe/blob/696ae99203b8b53bc078d303ffc0bc3a51e9f056/docs/universe/Great-Steppe-Universe.ru.md)
 - [Battles of the Great Steppe](https://github.com/svininykh/wesnoth_great_steppe)
 
 ## Что представляет собой DAIRN
