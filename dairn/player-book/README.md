@@ -13,7 +13,7 @@
 
 - [Создание персонажа](character/character-creation.md)
 - [Персонаж в игре](character/character-in-play.md)
-- [Прошлые Великой Степи](character/pasts-of-the-great-steppe.md)
+- [Жизненные пути Великой Степи](character/life-paths-of-the-great-steppe.md)
 
 ### Опасность и Схватка
 
