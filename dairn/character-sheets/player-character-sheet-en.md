@@ -8,18 +8,18 @@ of its sections without prescribing their visual composition.
 
 - **Name** — the character's name;
 - **Player** — the player's name;
-- **Past** — the character's life and experience before their Adventures;
+- **Life Path** — the character's life and experience before their Adventures;
 - **Age** — the character's age;
 - **Bond** — an important connection to a person, Party, Location, or event
   in the Great Steppe.
 
-## Ability Scores
+## Attributes
 
 - **Strength (STR)**;
 - **Dexterity (DEX)**;
 - **Will (WIL)**.
 
-Each Ability Score has a field for its current value.
+Each Attribute has a field for its current value.
 
 ## Protection and Consequences
 
@@ -40,6 +40,7 @@ Each Ability Score has a field for its current value.
 ## Inventory
 
 - **Inventory**;
+- **Bag** — the basic container for 6 of the 10 available slots;
 - **Inventory Slot** — ten separate slots;
 - **Bulky** — marks an item that occupies two slots;
 - **Petty** — marks an item that does not occupy a slot;
@@ -49,8 +50,15 @@ Fatigue is recorded directly in the Inventory Slots it occupies.
 
 ## Experience and Features
 
-- experience and knowledge arising from the Past;
-- notable features of appearance and behaviour;
+- experience and knowledge arising from the Life Path;
+- **Physique**;
+- **Skin**;
+- **Hair**;
+- **Face**;
+- **Speech**;
+- **Clothing**;
+- **Virtue**;
+- **Vice**;
 - the character's unfinished story;
 - special items and properties.
 
