@@ -42,6 +42,7 @@ Each Ability Score has a field for its current value.
 - **Inventory**;
 - **Inventory Slot** — ten separate slots;
 - **Bulky** — marks an item that occupies two slots;
+- **Petty** — marks an item that does not occupy a slot;
 - fields for item name, quantity or uses, and notes.
 
 Fatigue is recorded directly in the Inventory Slots it occupies.
@@ -76,9 +77,3 @@ knowledge.
 - important people, Locations, and events;
 - Rumors;
 - consequences of the character's choices.
-
-## Terms Requiring Approval
-
-**Name**, **Age**, and **Bond** are working terms in this prototype. Their
-trilingual forms must be approved in the DAIRN terminology base before
-the character sheet is released.
