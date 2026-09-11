@@ -13,6 +13,7 @@
 
 - [Создание персонажа](character/character-creation.md)
 - [Персонаж в игре](character/character-in-play.md)
+- [Серіктер / Спутники / Companions](character/companions.md)
 - [Жизненные пути Великой Степи](character/life-paths-of-the-great-steppe.md)
 
 ### Опасность и Схватка
@@ -25,7 +26,7 @@
 
 ### Игра в мире
 
-- [Игровые процедуры](playing-in-the-world/game-procedures.md)
+- [Правила игры](playing-in-the-world/game-procedures.md)
 - [Путешествие](playing-in-the-world/travel.md)
 - [Привал и длительные дела](playing-in-the-world/downtime.md)
 

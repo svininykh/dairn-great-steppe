@@ -13,7 +13,7 @@ of its sections without prescribing their visual composition.
 - **Bond** — an important connection to a person, Party, Location, or event
   in the Great Steppe.
 
-## Attributes
+## Ability Scores
 
 - **Strength (STR)**;
 - **Dexterity (DEX)**;
@@ -58,7 +58,7 @@ Fatigue is recorded directly in the Inventory Slots it occupies.
 - **Speech**;
 - **Clothing**;
 - **Virtue**;
-- **Vice**;
+- **Flaw**;
 - the character's unfinished story;
 - special items and properties.
 
