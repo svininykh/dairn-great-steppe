@@ -13,12 +13,15 @@
 
 - [Создание персонажа](character/character-creation.md)
 - [Персонаж в игре](character/character-in-play.md)
-- [Серіктер / Спутники / Companions](character/companions.md)
 - [Жизненные пути Великой Степи](character/life-paths-of-the-great-steppe.md)
 
 ### Опасность и Схватка
 
 - [Схватка](danger-and-combat/combat.md)
+
+### Серіктер / Спутники / Companions
+
+- [Серіктер / Спутники / Companions](character/companions.md)
 
 ### Снаряжение
 
