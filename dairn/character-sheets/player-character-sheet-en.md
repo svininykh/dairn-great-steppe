@@ -9,9 +9,16 @@ of its sections without prescribing their visual composition.
 - **Name** — the character's name;
 - **Player** — the player's name;
 - **Life Path** — the character's life and experience before their Adventures;
+- **Experience** — the area of practical knowledge and ability determined
+  by the Life Path;
+- **Talisman** — a personal item received through the Life Path, if the
+  result provides one;
+- **Companions** — a Companion received through the Life Path and any
+  other Companions of the character;
 - **Age** — the character's age;
 - **Bond** — an important connection to a person, Party, Location, or event
-  in the Great Steppe.
+  in the Great Steppe;
+- **Omen** — the Party's shared Omen, if this character determined it.
 
 ## Ability Scores
 
@@ -19,7 +26,7 @@ of its sections without prescribing their visual composition.
 - **Dexterity (DEX)**;
 - **Will (WIL)**.
 
-Each Attribute has a field for its current value.
+Each Ability Score has a field for its current value.
 
 ## Protection and Consequences
 
@@ -48,9 +55,8 @@ Each Attribute has a field for its current value.
 
 Fatigue is recorded directly in the Inventory Slots it occupies.
 
-## Experience and Features
+## Appearance and Features
 
-- experience and knowledge arising from the Life Path;
 - **Physique**;
 - **Skin**;
 - **Hair**;
@@ -76,7 +82,7 @@ knowledge.
 - **Rations**;
 - **Supplies**;
 - **Light Source**;
-- details about Companions, animals, and transport;
+- details about animals and transport;
 - brief travel notes.
 
 ## Player Notes
