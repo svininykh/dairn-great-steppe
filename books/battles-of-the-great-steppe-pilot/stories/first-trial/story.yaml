@@ -1,0 +1,24 @@
+story-id: first-trial
+story-version: 0.2
+title: Первое испытание
+form: chapters
+status: complete
+planned-chapters: 3
+start-chapter: chapter-01
+cover: artwork/chapters/chapter-01.png
+
+chapters:
+  - id: chapter-01
+    title: Блеск в ковыле
+    status: published
+    source: chapters/chapter-01.ru.md
+    illustration: artwork/chapters/chapter-01.png
+  - id: chapter-02
+    title: По следу корсака
+    status: published
+    source: chapters/chapter-02.ru.md
+    illustration: artwork/chapters/chapter-02.png
+  - id: chapter-03
+    title: Ледяные крылья
+    status: published
+    source: chapters/chapter-03.ru.md

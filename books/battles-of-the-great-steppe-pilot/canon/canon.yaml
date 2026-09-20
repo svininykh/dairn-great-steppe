@@ -1,0 +1,18 @@
+canon-id: battles-of-the-great-steppe
+version: 1.0
+world: world/world.md
+tone: world/tone.md
+ai-rules: world/ai-rules.md
+central-threat: world/central-threat.md
+initial-knowledge: knowledge/pilot-initial-knowledge.md
+
+characters:
+  - id: aibike
+    name: Айбике
+    source: characters/aibike.md
+  - id: karashash
+    name: Қарашаш
+    source: characters/karashash.md
+  - id: yersin
+    name: Ерсін
+    source: characters/yersin.md

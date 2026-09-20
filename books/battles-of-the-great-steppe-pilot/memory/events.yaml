@@ -1,0 +1,70 @@
+events:
+  - id: extra-trail-discovered
+    summary: Айбике заметила свежую звериную тропу в стороне от прямого пути.
+    participants: aibike,karashash
+    known-by: aibike,karashash
+    importance: 2
+    tags: trail,corsac,observation
+
+  - id: monisto-discovered
+    summary: Айбике и Қарашаш одновременно обнаружили неизвестную монисту в ковыле.
+    participants: aibike,karashash
+    known-by: aibike,karashash
+    importance: 5
+    tags: monisto,discovery
+
+  - id: monisto-race-decided
+    summary: Скачка определила, кто первой приблизилась к монисте.
+    participants: aibike,karashash
+    known-by: aibike,karashash
+    importance: 3
+    tags: rivalry,choice,monisto
+
+  - id: corsac-took-monisto
+    summary: Корсак схватил монисту и увёл героинь прочь от соседних аулов.
+    participants: aibike,karashash
+    known-by: aibike,karashash
+    importance: 5
+    tags: corsac,monisto,pursuit
+
+  - id: heroines-fought-wolves
+    summary: Айбике и Қарашаш вместе отбились от волчьей стаи.
+    participants: aibike,karashash
+    known-by: aibike,karashash
+    importance: 4
+    tags: wolves,battle,cooperation
+
+  - id: falcon-took-monisto
+    summary: Сапсан атаковал корсака, подхватил брошенную монисту и унёс её к возвышенности.
+    participants: aibike,karashash
+    known-by: aibike,karashash,yersin
+    importance: 5
+    tags: falcon,monisto,pursuit
+
+  - id: heroines-met-yersin
+    summary: Айбике и Қарашаш впервые встретили Ерсіна возле сапсана с монистой.
+    participants: aibike,karashash,yersin
+    known-by: aibike,karashash,yersin
+    importance: 5
+    tags: meeting,yersin,monisto
+
+  - id: ghost-corsacs-appeared
+    summary: В сумеречном ковыле появилась стая призрачных корсаков.
+    participants: aibike,karashash,yersin
+    known-by: aibike,karashash,yersin
+    importance: 5
+    tags: threat,ghost-corsacs
+
+  - id: icy-crows-attacked
+    summary: Ледяные вороны атаковали героев и принесли неестественный холод.
+    participants: aibike,karashash,yersin
+    known-by: aibike,karashash,yersin
+    importance: 5
+    tags: threat,icy-crows,cold
+
+  - id: first-alliance-formed
+    summary: Айбике, Қарашаш и Ерсін впервые победили вместе и решили продолжить путь одной группой.
+    participants: aibike,karashash,yersin
+    known-by: aibike,karashash,yersin
+    importance: 5
+    tags: alliance,victory,heroes

@@ -1,0 +1,3 @@
+package-format: dairn-book-package
+package-version: "0.1"
+book: book.yaml

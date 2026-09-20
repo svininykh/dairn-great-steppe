@@ -1,0 +1,26 @@
+book-id: battles-of-the-great-steppe
+book-version: 0.8.0
+title: Битвы Великой степи
+start-story: first-trial
+cover: artwork/covers/book-cover.png
+illustrations: catalogs/illustrations.yaml
+memory-events: memory/events.yaml
+canon: canon/canon.yaml
+
+ai-policy:
+  max-inserts: 10
+  max-response-chars: 200
+
+heroes:
+  - id: aibike
+    name: Айбике
+    description: Наблюдательная и осторожная
+    portrait: artwork/heroes/aibike.png
+  - id: karashash
+    name: Қарашаш
+    description: Смелая и решительная
+    portrait: artwork/heroes/karashash.png
+
+stories:
+  - id: first-trial
+    source: stories/first-trial/story.yaml

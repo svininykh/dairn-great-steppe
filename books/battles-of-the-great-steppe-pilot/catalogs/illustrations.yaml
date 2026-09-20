@@ -1,0 +1,11 @@
+artifacts:
+  # Reusable objects and finds, for example: ancient-medallion.
+
+npc:
+  # Secondary characters and their portraits.
+
+animals:
+  # Animals and creatures encountered in different chapters.
+
+threats:
+  # Hostile characters, creatures, hazards and natural threats.
