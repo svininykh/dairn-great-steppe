@@ -1,0 +1,18 @@
+asset_id: first-trial-chapter-02-2026-09-21
+asset_role: chapter illustration
+story_scope: "First Trial / Chapter 2: По следу корсака"
+classification: DAIRN Interpretation
+branch: BATTLES
+publication_target: battles-of-the-great-steppe-pilot
+fiction_level: explicit
+generator: OpenAI image generation, 2026-09-21
+visual_references:
+  - "chapter-01.png: internal Battles reference for distinct blue and burgundy riders, feather grass, and late light; its composition and poses were not reused"
+source_constraints:
+  - "Chokan Valikhanov, Horseman and Training Horses with Kyrgyz (1856): riders and horses as a material-study constraint; https://valikhanov.digitalcollections-civiconnect.com/image-gallery.html"
+  - "Bronislaw Zaleski, La vie des steppes kirghizes (1865): narrative relationship of book illustration and landscape; https://gallica.bnf.fr/ark:/12148/bpt6k63786094"
+historical_check: pending human review
+canon_check: passed editorial review; Aibike and Karashash are mounted, visually distinct, and pursue the corsac before the wolf pack appears in the chapter
+profile_check: passed editorial review; cinematic BATTLES action with a material steppe, watercolour wash, and restrained gouache accents
+publication_check: pending human review of platform rules, asset rights, and attribution requirements
+human_decision: pending
