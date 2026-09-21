@@ -20,6 +20,10 @@ heroes:
     name: Қарашаш
     description: Смелая и решительная
     portrait: artwork/heroes/karashash.png
+  - id: yersin
+    name: Ерсін
+    description: Спокойный и наблюдательный
+    portrait: artwork/heroes/yersin.png
 
 stories:
   - id: first-trial
