@@ -9,7 +9,7 @@ generator: OpenAI image generation, 2026-09-21
 visual_references:
   - "chapter-01.png: internal Battles reference for wide format, distinct blue and burgundy riders, and hand-painted steppe treatment; its composition and poses were not reused"
   - "artwork/heroes: internal character references for Aibike, Karashash, and Yersin"
-canon_check: passed editorial review; the three heroes defend a low rocky rise against attacking ghost corsacs and icy crows, with Yersin's saker falcon clearly separated as an allied animal and no monisto present
+canon_check: passed editorial review; the three heroes defend a low rocky rise against attacking ghost corsacs and icy crows, while Yersin's saker falcon engages one icy crow as an allied animal; no monisto is present
 profile_check: passed editorial review; cinematic BATTLES action in an open cold steppe with low weathered stone outcrops, watercolour wash, restrained gouache accents, and cold evening atmosphere
 publication_check: passed; generated DAIRN Interpretation for repository publication, with no reproduced external source artwork, required attribution, or watermark
 human_decision: approved by project owner on 2026-09-22
