@@ -10,7 +10,7 @@
 **Статус:** рабочая обновлённая версия для человеческой проверки  
 **Назначение:** основа технических заданий, промптов, референс-пакетов и проверки новых иллюстраций  
 **Область:** DAIRN: GREAT STEPPE, Battles of the Great Steppe и Shared Universe Illustrations  
-**Не заменяет автоматически:** `Visual-Guide-for-Illustrators-v3.ru.md`, `Great-Steppe-Universe-v1.3.ru.md` или решения человека.
+**Не заменяет автоматически:** `Visual-Guide-for-Illustrators-v3.ru.md`, [GREAT-STEPPE-UNIVERSE.ru.md](../GREAT-STEPPE-UNIVERSE.ru.md) или решения человека.
 
 ---
 

@@ -37,7 +37,7 @@ VISUAL → UNIVERSE → HISTORICAL (если нужна материальная
 | --- | --- | --- |
 | UNIVERSE | [UNIVERSE-VISUAL-LANGUAGE.md](UNIVERSE-VISUAL-LANGUAGE.md) | общий художественный язык и конструктивные ограничения |
 | OBJECT — юрта | [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md) | конструкция, покрытие, свет и проверка изображения юрты |
-| UNIVERSE canon | [Great-Steppe-Universe-v1.3.ru.md](Great-Steppe-Universe-v1.3.ru.md) | общая модель мира и связь ветвей |
+| UNIVERSE canon | [GREAT-STEPPE-UNIVERSE.ru.md](../GREAT-STEPPE-UNIVERSE.ru.md) | общая модель мира и связь ветвей; документ в корне репозитория |
 | HISTORICAL | [HISTORICAL-VISUAL-FOUNDATION.md](HISTORICAL-VISUAL-FOUNDATION.md) | источники, доказательные статусы, права и проверка деталей |
 | DAIRN-TABLETOP | [DAIRN-TABLETOP-ILLUSTRATION-GUIDE.md](DAIRN-TABLETOP-ILLUSTRATION-GUIDE.md) | наблюдение, пространство и постепенное чудесное |
 | BATTLES | [BATTLES-ILLUSTRATION-GUIDE.md](BATTLES-ILLUSTRATION-GUIDE.md) | событие, движение, конфликт и хроника |

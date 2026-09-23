@@ -62,4 +62,4 @@
 явности фантастического: продолжите по выбранному в VISUAL руководству ветви.
 
 Полная каноническая модель мира остаётся в
-[Great-Steppe-Universe-v1.3.ru.md](Great-Steppe-Universe-v1.3.ru.md).
+[GREAT-STEPPE-UNIVERSE.ru.md](../GREAT-STEPPE-UNIVERSE.ru.md).
