@@ -86,19 +86,8 @@ DAIRN Visual Reference → внутренняя преемственность �
 
 ### 5.3. Yurt is a construction check, not a decoration
 
-Для юрты применять конструктивную формулу V3:
-
-```text
-Кереге → Уық → Шаңырақ → Күлдіреуіш 3+3 → Үзік до наружного обода
-```
-
-Обязательные ограничения:
-
-- шаңырақ — горизонтальное круглое кольцо, а не точка схождения крыши;
-- уық крепятся к его внешнему ободу, не продолжаются внутрь как спицы;
-- внутри — две компактные параллельные тройки күлдіреуіш, пересекающиеся приблизительно под 90°;
-- открытый шаңырақ даёт небо, дым и верхний свет; непрозрачный войлок не светится как тканевый купол;
-- стилизация не отменяет конструктивную правдоподобность.
+Юрта проверяется по [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md):
+конструкция сохраняется при любом профиле изображения.
 
 ## 6. Canon and Character Boundaries
 
@@ -210,7 +199,7 @@ Constraints: contemporary DAIRN interpretation, not an archival image, no text, 
 - no glossy 3D render, anime, sterile concept-art finish or photorealistic fashion editorial;
 - no generic nomad costume collage; no unverified ceremonial costume presented as everyday fact;
 - no pseudo-historical archive treatment, false dates, museum labels or claims of authenticity;
-- no impossibly constructed yurt or radial spokes across the shanyrak;
+- no yurt violating [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md);
 - no magic effects unless the brief declares an explicit fictional layer;
 - no character posing for the viewer when the branch is DAIRN;
 - no text, logo or watermark unless separately designed and proofread by a human.
@@ -299,7 +288,7 @@ No review can be replaced by a high aesthetic score from the model.
 - [ ] Characters retain approved identity and relationships.
 - [ ] Landscape is a real actor in the image, not generic wallpaper.
 - [ ] Clothing, gear, animals and architecture have passed the relevant material check.
-- [ ] Yurt construction passes the V3 structural formula when shown.
+- [ ] Yurt construction meets [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md) when shown.
 - [ ] The intended branch reads without depending on a logo.
 - [ ] The image contains no accidental text, watermark, invented heraldry or pseudo-archive claim.
 - [ ] Rights for any source reproduction are separately checked.
@@ -373,9 +362,9 @@ Branch: Shared
 Goal: an everyday scene that may later read as memory or omen
 Frame: hearth, open shanyrak, human-scale quiet action
 Light: natural top light and smoke path
-Historical focus: yurt construction and domestic objects
+Historical focus: yurt construction per YURT-VISUAL-SPEC.md and domestic objects
 Fiction: ambiguous, optional
-Avoid: incorrect shanyrak, theatrical magical beam, fixed plot outcome
+Avoid: violations of YURT-VISUAL-SPEC.md, fixed plot outcome
 ```
 
 ## 18. Human Decision Boundary

@@ -11,15 +11,15 @@ VISUAL → UNIVERSE → HISTORICAL (если нужна материальная
 ```
 
 1. Прочтите [UNIVERSE-VISUAL-LANGUAGE.md](UNIVERSE-VISUAL-LANGUAGE.md): общий
-   язык одного мира и конструктивные ограничения.
+   язык одного мира и конструктивные ограничения. Для изображения юрты —
+   [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md).
 2. Если изображаются либо заявляются достоверными одежда, предметы, юрта,
    лошадь, ландшафт или поза, прочтите
    [HISTORICAL-VISUAL-FOUNDATION.md](HISTORICAL-VISUAL-FOUNDATION.md).
 3. Выберите одно руководство ниже.
 4. Подготовьте brief, вариант и проверку по
    [ILLUSTRATION-PRODUCTION-GUIDE.md](ILLUSTRATION-PRODUCTION-GUIDE.md).
-5. Человек утверждает канон, исторические претензии, права и финальное
-   использование.
+5. Передайте результат на human review по production guide.
 
 ## Выберите ветвь
 
@@ -29,16 +29,14 @@ VISUAL → UNIVERSE → HISTORICAL (если нужна материальная
 | Игровая хроника, конфликт, поворотный пункт или событийная сцена | [BATTLES-ILLUSTRATION-GUIDE.md](BATTLES-ILLUSTRATION-GUIDE.md) |
 | Степь, дорога, юрта, очаг, отдых, память или неоднозначное знамение для нескольких ветвей | [SHARED-UNIVERSE-ILLUSTRATION-GUIDE.md](SHARED-UNIVERSE-ILLUSTRATION-GUIDE.md) |
 
-`SHARED` — не третий самостоятельный стиль: это изображение одного мира,
-которое без перерисовки естественно работает в нескольких контекстах и не
-закрепляет несовместимый сюжетный исход.
+`SHARED` — использование одной иллюстрации в нескольких ветвях, не третий стиль.
 
 ## Карта существующих документов
 
 | Уровень | Документ | Роль |
 | --- | --- | --- |
 | UNIVERSE | [UNIVERSE-VISUAL-LANGUAGE.md](UNIVERSE-VISUAL-LANGUAGE.md) | общий художественный язык и конструктивные ограничения |
-| UNIVERSE architecture | [README.md](README.md) | Visual Core, профили, usage и граница решений человека |
+| OBJECT — юрта | [YURT-VISUAL-SPEC.md](YURT-VISUAL-SPEC.md) | конструкция, покрытие, свет и проверка изображения юрты |
 | UNIVERSE canon | [Great-Steppe-Universe-v1.3.ru.md](Great-Steppe-Universe-v1.3.ru.md) | общая модель мира и связь ветвей |
 | HISTORICAL | [HISTORICAL-VISUAL-FOUNDATION.md](HISTORICAL-VISUAL-FOUNDATION.md) | источники, доказательные статусы, права и проверка деталей |
 | DAIRN-TABLETOP | [DAIRN-TABLETOP-ILLUSTRATION-GUIDE.md](DAIRN-TABLETOP-ILLUSTRATION-GUIDE.md) | наблюдение, пространство и постепенное чудесное |
@@ -46,14 +44,8 @@ VISUAL → UNIVERSE → HISTORICAL (если нужна материальная
 | SHARED | [SHARED-UNIVERSE-ILLUSTRATION-GUIDE.md](SHARED-UNIVERSE-ILLUSTRATION-GUIDE.md) | повторно используемые образы одной вселенной |
 | PRODUCTION | [ILLUSTRATION-PRODUCTION-GUIDE.md](ILLUSTRATION-PRODUCTION-GUIDE.md) | brief, prompt, generation, review, metadata и human approval |
 
-## Legacy-источники
-
-- [Visual-Guide-for-Illustrators-v3.ru.md](Visual-Guide-for-Illustrators-v3.ru.md)
-  — **PARTIALLY MIGRATED**. Полные исходные правила и примеры сохранены;
-  трассировка по новым документам приведена в каждом guide.
-- [Visual-Guide-for-Illustrators-v4.ru.md](Visual-Guide-for-Illustrators-v4.ru.md)
-  — **PARTIALLY MIGRATED**. Производственный процесс и routing перенесены,
-  исходные шаблоны и подробные формулировки сохранены.
-
 Для новой ветви добавляется `<NEW-BRANCH>-ILLUSTRATION-GUIDE.md`; это не
 требует менять UNIVERSE или HISTORICAL, если общий канон не изменяется.
+
+V3/V4 сохранены как контрольные источники: [V3](Visual-Guide-for-Illustrators-v3.ru.md),
+[V4](Visual-Guide-for-Illustrators-v4.ru.md). Для обычного задания достаточно маршрута выше.
