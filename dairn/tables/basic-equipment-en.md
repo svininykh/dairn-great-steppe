@@ -39,6 +39,6 @@ A weapon's damage die is a property of the weapon. Record it alongside the item'
 
 ## Basis of Adaptation
 
-Weapon damage dice are based on [Cairn 2e — Marketplace, Weapons](https://cairnrpg.com/second-edition/players-guide/marketplace/#weapons) by Yochai Gal: bows, daggers, and cudgels use `d6`; spears, axes, and swords use `d8`. In DAIRN, the axe corresponds to an ordinary axe, and the sabre to a sword. Item loads are preserved from the current DAIRN starting Inventory table.
+Weapon damage dice are based on [Cairn 2e — Marketplace, Weapons](https://cairnrpg.com/second-edition/players-guide/marketplace/#weapons) by Yochai Gal: bows, daggers, and cudgels use `d6`; spears, axes, and swords use `d8`. In DAIRN, the axe corresponds to an ordinary axe, and the sabre to a sword. The number of Inventory Slots each item occupies is unchanged from the current DAIRN starting Inventory table.
 
 The adapted material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

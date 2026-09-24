@@ -26,7 +26,7 @@ The unique element may be a **Talisman**, a **Companion**, or another listed **V
 | 12 | Guarded Camps | Camp guarding | Small lamp | Talisman |
 | 13 | Kept Lore in Song | Oral traditions | Harmonica | Talisman |
 | 14 | Learned to Read and Write | Reading and writing | Ring inscribed in an unknown language | Talisman |
-| 15 | Carried News Between People | Messenger work | Corsac fox | Companion |
+| 15 | Carried News Between Communities | Messenger work | Corsac fox | Companion |
 | 16 | Traded and Bartered Goods | Trading | Purse containing enough money to buy a horse | Valuable |
 | 17 | Hiding Their Past | Choose an area of Experience | Key to something unknown | Talisman |
 | 18 | Foundling | Life among strangers | Item found with the character | Talisman |
@@ -37,7 +37,7 @@ The unique element may be a **Talisman**, a **Companion**, or another listed **V
 
 ### Rare Herbs
 
-**Rare herbs** are a Petty Talisman. Consuming them removes **1 Fatigue** once.
+**Rare herbs** are a Petty Talisman. These herbs can be consumed once to remove **1 Fatigue**.
 
 ### Learned a Master's Craft
 
@@ -59,4 +59,4 @@ Foresight does not change the future or guarantee an accurate answer.
 - The origin of the **foreign flower** is not determined in advance.
 - The meaning of the inscription on the **ring** is unknown to the character at creation.
 - What the **key** opens is not determined in advance.
-- The nature and origin of the items belonging to the **Foundling** and **Witnessed the Impossible** may become story hooks.
+- The nature and origin of the items granted by the **Foundling** and **Witnessed the Impossible** Life Paths may become story hooks.

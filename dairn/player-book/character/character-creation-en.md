@@ -41,7 +41,7 @@ A Life Path establishes Experience, but not a complete biography. The player and
 
 ### Experience
 
-Each Life Path determines your character's **Experience**: an area of practical knowledge and ability acquired in their previous life.
+Each Life Path determines your character's **Experience**: an area of practical knowledge and ability acquired before their Adventures began.
 
 Experience is not a skill system, has no numerical value, and grants no bonuses to Checks. If Experience makes it clear that your character can perform an ordinary action, **no Check is required**.
 
@@ -67,11 +67,11 @@ Starting Inventory is determined only by rolling **6d6**.
 
 Roll three dice for **Water, Food, and Fire**. After rolling, you may swap any two of these three results once. Then roll three more dice separately for a **Weapon, Travel Gear, and a Tool**; these results cannot be swapped.
 
-Roll results, item loads, and Supplies are listed in the separate [starting Inventory table, `6d6`](../../tables/starting-inventory-6d6-en.md).
+Roll results, the number of Inventory Slots each item occupies, and Supplies are listed in the separate [starting Inventory table, `6d6`](../../tables/starting-inventory-6d6-en.md).
 
 Basic equipment details are given in [Equipment, Valuables, and the Marketplace](../equipment/equipment-values-and-market-en.md). Record your weapon's damage die alongside its name.
 
-Record the items in your character's Inventory. The total Inventory limit is **10 slots**. A **Bag** holds up to **6 of those 10 slots** and does not increase the total Inventory limit.
+Record the items in your character's Inventory. The total Inventory limit is **10 slots**. A **Bag** has a capacity of up to **6 slots**, included in the character's total of **10**; it does not increase the total Inventory limit.
 
 All received items are recorded and tracked according to [The Character in Play](character-in-play.md). The procedures for gaining Fatigue, becoming Deprived, and recovering are given in [Game Procedures](../playing-in-the-world/game-procedures.md).
 
@@ -146,7 +146,7 @@ An Omen does not necessarily concern the character who determined it and does no
 
 ### Party Procedure
 
-**Once all players have created their characters**, compare their ages. The player of the youngest character rolls **d20** on the separate [Omens table](../../tables/omens-d20-en.md), reads the result to the Party, and records it on their character sheet. This Omen concerns the entire Party. If several characters are tied for youngest, the Omen is determined by whichever of their players rolled for age last.
+**Once all players have created their characters**, compare the characters' ages. The player of the youngest character rolls **d20** on the separate [Omens table](../../tables/omens-d20-en.md), reads the result to the Party, and records it on their character sheet. This Omen concerns the entire Party. If several characters are tied for youngest, the Omen is determined by whichever of their players rolled for age last.
 
 ### The Foundling and Omens
 

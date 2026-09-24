@@ -6,7 +6,7 @@ A **Life Path** describes your character's past experience, not a class or curre
 | ---: | --- | --- | --- |
 | 1 | **Raised in the Saddle** | Riding | Handling horses, living and travelling on horseback |
 | 2 | **Raised Among Clan Warriors** | Warrior customs | Weapons, training, and the daily life of warriors |
-| 3 | **Hunted with Birds of Prey** | Falconry | Hunting birds, tracking, and taking game |
+| 3 | **Hunted with Birds of Prey** | Falconry | Birds of prey used in hunting, tracking, and taking game |
 | 4 | **Tended Herds** | Herding | Herds, animal behaviour, grazing, and steppe life |
 | 5 | **Followed the Trail** | Tracking | Finding and reading tracks, pursuit, and determining the direction of travel |
 | 6 | **Gathered Healing Herbs** | Steppe plants | Finding, gathering, and using plants for healing |
@@ -18,7 +18,7 @@ A **Life Path** describes your character's past experience, not a class or curre
 | 12 | **Guarded Camps** | Camp guarding | Keeping watch, night guard duty, recognising danger, and defending a camp |
 | 13 | **Kept Lore in Song** | Oral traditions | Songs, legends, oral history, and preserving knowledge |
 | 14 | **Learned to Read and Write** | Reading and writing | Reading, writing, records, and the written tradition |
-| 15 | **Carried News Between People** | Messenger work | Delivering messages, finding people, roads, and the customs of different communities |
+| 15 | **Carried News Between Communities** | Messenger work | Delivering messages, finding people, roads, and the customs of different communities |
 | 16 | **Traded and Bartered Goods** | Trading | Bargaining, barter, appraising goods, and understanding their worth |
 | 17 | **Hiding Their Past** | Choose an area of Experience | The player also determines the reason for concealment |
 | 18 | **Foundling** | Life among strangers | Unwritten rules, others' attitudes, and finding a place among new people |

@@ -4,7 +4,7 @@ Roll **6d6**: three dice determine Supplies, and the other three determine a Wea
 
 ## Basic Weapon and Item Table
 
-Weapon damage dice and item loads are given in the [basic equipment reference](basic-equipment-en.md).
+Weapon damage dice and the number of Inventory Slots each item occupies are given in the [basic equipment reference](basic-equipment-en.md).
 
 | d6 | Weapon | Travel Gear | Tool |
 | ---: | --- | --- | --- |
@@ -40,6 +40,6 @@ Roll the first three dice for **Water, Food, and Fire**. After rolling, you may 
 
 Roll separately for the **Weapon, Travel Gear, and Tool**; these results cannot be swapped.
 
-Record the items in your Inventory. Your character's total Inventory limit is **10 slots**. A **Bag** holds up to **6 of those 10 slots** and does not increase the total Inventory limit.
+Record the items in your Inventory. Your character's total Inventory limit is **10 slots**. A **Bag** has a capacity of up to **6 slots**, included in the character's total of **10**; it does not increase the total Inventory limit.
 
 Life Path Experience and the unique element are determined separately in the next step of character creation.
