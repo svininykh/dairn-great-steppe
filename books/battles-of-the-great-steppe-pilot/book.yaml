@@ -1,5 +1,5 @@
 book-id: battles-of-the-great-steppe
-book-version: 0.8.1
+book-version: 0.8.3
 title: Битвы Великой степи
 start-story: first-trial
 cover: artwork/covers/book-cover.png
@@ -13,26 +13,182 @@ ai-policy:
 
 heroes:
   - id: aibike
-    name: Айбике
-    description: Наблюдательная и осторожная
+    name: {kk: Айбике, ru: Айбике, en: Aibike}
+    description:
+      kk: >-
+        Байқағыш әрі сақ. 18 жастағы дала садақшысы, салт атты.
+        Қара бұрымдар, оюлы көк киім, белдік, жиегі терімен көмкерілген
+        қауырсынды көк бөрік, сырғалар, етік.
+      ru: >-
+        Наблюдательная и осторожная. Степная лучница и всадница, 18 лет.
+        Тёмные косы, синяя одежда с орнаментальной отделкой, пояс,
+        синяя шапка с меховой опушкой и пером, серьги, сапоги.
+      en: >-
+        Observant and cautious. A steppe archer and rider, 18 years old.
+        Dark braids, ornamented blue clothing, a belt, a blue fur-trimmed hat
+        with a feather, earrings, and boots.
     portrait: artwork/heroes/aibike.png
     initial-state:
+      age: 18
+      appearance:
+        physique: 8
+        skin: 4
+        hair: 2
+        face: 1
+        clothing: 3
+      inventory:
+        items:
+          - name:
+              kk: Қысқа садақ + жебелері бар қорамсақ
+              ru: Короткий лук + колчан со стрелами
+              en: Shortbow + quiver of arrows
+            kind: equipment
+            quantity: 1
+            slots: 2
+            damage: d6
+            properties:
+              items: [Bulky]
+            notes:
+              kk: >-
+                Құрама садақ; қорамсақпен бірге 1-тараудың суретінде және
+                портретте көрінеді. Бір жиынтық, жебе саны берілмеген.
+                Market анықтамасы — dairn/tables/basic-equipment-master.md,
+                «Оружие» бөлімі (репозиторий түбірінен берілген жол).
+              ru: >-
+                Составной лук; виден вместе с колчаном в иллюстрации главы 1
+                и на портрете. Один комплект, количество стрел не задано.
+                Определение Market — dairn/tables/basic-equipment-master.md,
+                раздел «Оружие» (путь от корня репозитория).
+              en: >-
+                Composite bow; visible with the quiver in the chapter 1
+                illustration and portrait. One set; arrow count unspecified.
+                Market definition — dairn/tables/basic-equipment-master.md,
+                section «Оружие» (path from the repository root).
       companions:
         items:
-          - kind: Верховой конь
+          - kind: Riding horse
+            notes:
+              kk: Ер-тоқым мен жүген 1-тараудың суретінде көрінеді; аттың жүгінің ішіндегісі белгісіз.
+              ru: Седло и узда видны в иллюстрации главы 1; содержимое поклажи коня неизвестно.
+              en: Saddle and bridle are visible in the chapter 1 illustration; the horse's load contents are unknown.
   - id: karashash
-    name: Қарашаш
-    description: Смелая и решительная
+    name: {kk: Қарашаш, ru: Қарашаш, en: Karashash}
+    description:
+      kk: >-
+        Батыл әрі шешімді. 23 жастағы дала жауынгері.
+        Қара бұрымдар, оюлы, терімен көмкерілген күрең қызыл киім,
+        күрең қызыл бас киім, белдік, сырғалар, етік.
+      ru: >-
+        Смелая и решительная. Степная воительница, 23 года.
+        Тёмные косы, бордовая одежда с орнаментом и меховой отделкой,
+        бордовый головной убор, пояс, серьги, сапоги.
+      en: >-
+        Brave and determined. A steppe warrior, 23 years old.
+        Dark braids, ornamented burgundy clothing with fur trim,
+        burgundy headwear, a belt, earrings, and boots.
     portrait: artwork/heroes/karashash.png
     initial-state:
+      age: 23
+      appearance:
+        physique: 3
+        skin: 4
+        hair: 2
+        face: 1
+        clothing: 3
+      inventory:
+        items:
+          - name:
+              kk: Қысқа садақ + жебелері бар қорамсақ
+              ru: Короткий лук + колчан со стрелами
+              en: Shortbow + quiver of arrows
+            kind: equipment
+            quantity: 1
+            slots: 2
+            damage: d6
+            properties:
+              items: [Bulky]
+            notes:
+              kk: >-
+                Садақ пен жебелері бар қорамсақ 1-тараудың суретінде және
+                Қарашаштың өз портретінде көрінеді. Бір жиынтық, жебе саны
+                берілмеген. Market анықтамасы — dairn/tables/basic-equipment-master.md,
+                «Оружие» бөлімі (репозиторий түбірінен берілген жол).
+              ru: >-
+                Лук и колчан со стрелами видны в иллюстрации главы 1
+                и на собственном портрете Қарашаш. Один комплект,
+                количество стрел не задано. Определение Market —
+                dairn/tables/basic-equipment-master.md, раздел «Оружие»
+                (путь от корня репозитория).
+              en: >-
+                The bow and quiver of arrows are visible in the chapter 1
+                illustration and Karashash's own portrait. One set; arrow count
+                unspecified. Market definition — dairn/tables/basic-equipment-master.md,
+                section «Оружие» (path from the repository root).
       companions:
         items:
-          - kind: Верховой конь
+          - kind: Riding horse
+            notes:
+              kk: Ер-тоқым мен жүген 1-тараудың суретінде көрінеді; аттың жүгінің ішіндегісі белгісіз.
+              ru: Седло и узда видны в иллюстрации главы 1; содержимое поклажи коня неизвестно.
+              en: Saddle and bridle are visible in the chapter 1 illustration; the horse's load contents are unknown.
+
+npcs:
   - id: yersin
-    name: Ерсін
-    description: Спокойный и наблюдательный
+    name: {kk: Ерсін, ru: Ерсін, en: Yersin}
+    description:
+      kk: >-
+        Сабырлы, байқағыш аңшы, құсбегі және барлаушы, 21 жаста.
+        Қара шаш, мұрт пен қысқа сақал; терімен көмкерілген сарғыш қоңыр
+        киім, белдік және жиегі терімен көмкерілген бөрік.
+      ru: >-
+        Спокойный и наблюдательный охотник, сокольничий и разведчик, 21 год.
+        Тёмные волосы, усы и короткая борода; охристо-коричневая одежда
+        с меховой отделкой, пояс и шапка с меховой опушкой.
+      en: >-
+        A calm, observant hunter, falconer, and scout, 21 years old. Dark hair, a moustache,
+        and a short beard; ochre-brown clothing with fur trim, a belt,
+        and a fur-trimmed hat.
     portrait: artwork/heroes/yersin.png
-    initial-state: {}
+    initial-state:
+      age: 21
+      appearance:
+        physique: 6
+        skin: 7
+        hair: 9
+        face: 8
+        clothing: 7
+      inventory:
+        items:
+          - name: {kk: Қамшы, ru: Қамшы (плеть), en: Qamshy (whip)}
+            kind: equipment
+            quantity: 1
+            slots: 1
+            damage: d4
+            notes:
+              kk: >-
+                Ерсін алғаш көрінетін 3-тараудың суретінде оның қолында көрінеді.
+                Market анықтамасы — dairn/tables/basic-equipment-master.md,
+                «Оружие» бөлімі (репозиторий түбірінен берілген жол).
+              ru: >-
+                Видна в руке Ерсіна в иллюстрации главы 3, главы его вступления.
+                Определение Market — dairn/tables/basic-equipment-master.md,
+                раздел «Оружие» (путь от корня репозитория).
+              en: >-
+                Visible in Yersin's hand in the illustration for chapter 3,
+                his entry chapter. Market definition — dairn/tables/basic-equipment-master.md,
+                section «Оружие» (path from the repository root).
+          - name: {kk: Құсбегі қолғабы, ru: Сокольничья перчатка, en: Falconry glove}
+            kind: equipment
+            notes:
+              kk: Ерсіннің портретінде көрінеді; алатын ұяшықтары мен ойын қасиеттері анықталмаған.
+              ru: Видна на портрете Ерсіна; нагрузка и игровые свойства не определены.
+              en: Visible in Yersin's portrait; slot cost and game properties are unspecified.
+          - name: {kk: Белдікке тағылған қалта, ru: Поясной подсумок, en: Belt pouch}
+            kind: equipment
+            notes:
+              kk: Ерсіннің портретінде көрінеді; ішіндегісі мен алатын ұяшықтары белгісіз.
+              ru: Виден на портрете Ерсіна; содержимое и нагрузка неизвестны.
+              en: Visible in Yersin's portrait; contents and slot cost are unknown.
 
 stories:
   - id: first-trial

@@ -12,6 +12,17 @@ A reference for Weapons, Travel Gear, and Tools used in [starting Inventory, `6d
 | Dagger | d6 | 1 | — |
 | Cudgel | d6 | 1 | — |
 | Sabre | d8 | 1 | — |
+| Qamshy (whip) | d4 | 1 | No additional combat properties |
+
+The composite bow and quiver in the pilot's initial character profiles use
+the Shortbow + quiver of arrows definition: `d6`, 2 slots, one Bulky set.
+Composite construction grants no separate bonus.
+
+The qamshy was added for Yersin's visible whip in the pilot (Issue #25).
+This is an authored DAIRN game definition: an ordinary one-slot item with
+base damage `d4`, matching an unarmed Attack in the Combat rules. The weapon
+itself does not make an Attack Impaired. Damage, range, Blast, disarming,
+and other special properties are not inferred from the image.
 
 A weapon's damage die is a property of the weapon. Record it alongside the item's name; no separate roll is needed to determine it during character creation. When Attacking, use the [Combat rules](../player-book/danger-and-combat/combat.md).
 

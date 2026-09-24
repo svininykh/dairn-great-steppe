@@ -10,13 +10,42 @@
   },
   "$defs": {
     "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "localized-text": {
+      "oneOf": [
+        {"$ref": "#/$defs/text"},
+        {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": false,
+          "properties": {
+            "kk": {"$ref": "#/$defs/text"},
+            "ru": {"$ref": "#/$defs/text"},
+            "en": {"$ref": "#/$defs/text"}
+          }
+        }
+      ]
+    },
     "count": {"type": "integer", "minimum": 0},
+    "appearance-result": {"type": "integer", "minimum": 1, "maximum": 10},
+    "appearance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "physique": {"$ref": "#/$defs/appearance-result"},
+        "skin": {"$ref": "#/$defs/appearance-result"},
+        "hair": {"$ref": "#/$defs/appearance-result"},
+        "face": {"$ref": "#/$defs/appearance-result"},
+        "clothing": {"$ref": "#/$defs/appearance-result"}
+      }
+    },
     "character": {
       "type": "object",
       "required": ["id"],
       "properties": {
         "id": {"$ref": "#/$defs/text"},
-        "name": {"$ref": "#/$defs/text"},
+        "name": {"$ref": "#/$defs/localized-text"},
+        "description": {"$ref": "#/$defs/localized-text"},
+        "notes": {"$ref": "#/$defs/localized-text"},
         "initial-state": {"$ref": "#/$defs/state"}
       }
     },
@@ -41,14 +70,14 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "name": {"$ref": "#/$defs/text"},
+        "name": {"$ref": "#/$defs/localized-text"},
         "kind": {"enum": ["equipment", "book", "relic", "supply", "valuable"]},
         "quantity": {"$ref": "#/$defs/count"},
         "uses": {"$ref": "#/$defs/values"},
         "slots": {"type": "integer", "minimum": 0, "maximum": 2},
         "damage": {"$ref": "#/$defs/text"},
         "properties": {"$ref": "#/$defs/texts"},
-        "notes": {"$ref": "#/$defs/text"}
+        "notes": {"$ref": "#/$defs/localized-text"}
       }
     },
     "inventory": {
@@ -65,15 +94,17 @@
       "additionalProperties": false,
       "properties": {
         "character-id": {"$ref": "#/$defs/text"},
-        "name": {"$ref": "#/$defs/text"},
+        "name": {"$ref": "#/$defs/localized-text"},
         "kind": {"$ref": "#/$defs/text"},
-        "notes": {"$ref": "#/$defs/text"}
+        "notes": {"$ref": "#/$defs/localized-text"}
       }
     },
     "state": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
+        "age": {"$ref": "#/$defs/count", "description": "Age in completed years at entry into the story; omit if unknown or approximate."},
+        "appearance": {"$ref": "#/$defs/appearance"},
         "abilities": {
           "type": "object",
           "additionalProperties": false,

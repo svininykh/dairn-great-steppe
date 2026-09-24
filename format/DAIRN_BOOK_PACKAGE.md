@@ -97,6 +97,20 @@ This is an additive manifest extension; the ZIP package version remains `0.1`.
 Books without these optional fields remain valid. Compatibility with any
 particular older external reader must be verified in that reader's repository.
 
+## Localized character text
+
+Character `name`, `description`, and `notes`, plus item, talisman, and
+companion `name` and `notes`, accept either a legacy nonblank string or a
+nonempty map of nonblank translations keyed by `kk`, `ru`, and `en`.
+Unknown translations are omitted; other locale keys and null values are
+invalid. See the [localized text contract](CHARACTER_INITIAL_STATE.md#локализация-отображаемых-полей).
+Display selects the requested language, then `kk`; if neither exists,
+the field is unavailable. Legacy strings display unchanged. Validation
+preserves the entire map and does not select or generate a translation.
+Technical IDs, resource paths, kinds, and properties are not localized.
+Existing books remain valid, but consumers must support translation maps
+before loading localized books. The container version remains `0.1`.
+
 ## Minimal validation
 
 Validate ZIP readability, safe paths, package manifest/version, `book.yaml`,
