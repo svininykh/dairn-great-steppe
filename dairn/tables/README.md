@@ -18,6 +18,8 @@ tables/
 
 ## Рабочие таблицы
 
+- [`basic-equipment.md`](basic-equipment.md) — базовое оружие с кубиками
+  Урона, Дорожное снаряжение и Инструменты с нагрузкой.
 - [`bonds_d20.md`](bonds_d20.md) — таблица Байланыс / Уз / Bonds с
   выбором результата броском `d20`.
 - [`character-traits-8d10.md`](character-traits-8d10.md) — восемь

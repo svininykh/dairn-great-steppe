@@ -1,4 +1,4 @@
-# DAIRN --- Опыт и уникальные элементы Жизненного пути d20
+# DAIRN — Базовое снаряжение
 
 Эта страница связывает рабочий мастер и подготовленные языковые версии.
 Правки содержания сначала вносятся в мастер, затем синхронизируются
@@ -6,10 +6,10 @@
 
 ## Рабочая основа
 
-- [Мастер](life-path-unique-elements-d20-master.md)
+- [Мастер](basic-equipment-master.md)
 
 ## Публичные версии
 
-- [Қазақша](life-path-unique-elements-d20-kk.md)
-- [Русский](life-path-unique-elements-d20-ru.md)
-- [English](life-path-unique-elements-d20-en.md)
+- [Қазақша](basic-equipment-kk.md)
+- [Русский](basic-equipment-ru.md)
+- [English](basic-equipment-en.md)
