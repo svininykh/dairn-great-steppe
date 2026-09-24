@@ -5,7 +5,7 @@ form: chapters
 status: complete
 planned-chapters: 3
 start-chapter: chapter-01
-cover: artwork/chapters/chapter-01.png
+cover: artwork/cover.png
 
 chapters:
   - id: chapter-01

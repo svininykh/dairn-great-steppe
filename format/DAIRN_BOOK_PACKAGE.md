@@ -56,6 +56,16 @@ starting story; its story manifest identifies the starting chapter and each
 chapter source. A package reader must not assume every optional directory
 exists.
 
+`book.yaml` → `cover` identifies the whole book's cover relative to the book
+directory (for example, `artwork/covers/book-cover.png`). Each story may also
+have its own optional `story.yaml` → `cover`, recommended at `artwork/cover.png`
+relative to that story's directory. This is independent of
+`story.yaml` → `chapters[].illustration`, whose paths are also relative to the
+story directory (for example, `artwork/chapters/chapter-01.png`). Authors may
+explicitly reuse an image, but story covers need not match first-chapter
+illustrations. See [Story covers and chapter illustrations](DAIRN_STORY_FORMAT.md#story-covers-and-chapter-illustrations)
+for the recommended layout. This convention does not make story covers required.
+
 ## Structured heroes
 
 `book.yaml` may contain a `heroes` list. Every listed hero requires a stable,

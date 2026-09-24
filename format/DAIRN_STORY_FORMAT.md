@@ -31,6 +31,47 @@ retain compatible scene, choice, and transition IDs. Human text, headings, and
 dialogue may differ by language. A reader must select a language explicitly or
 use a documented fallback; the package itself is not single-language.
 
+## Story covers and chapter illustrations
+
+Each story in a book may have its own independent cover illustration. The
+story's `cover` field remains optional. Recommended layout:
+
+```text
+stories/<story-id>/
+├── story.yaml
+├── artwork/
+│   ├── cover.png
+│   └── chapters/
+│       ├── chapter-01.png
+│       ├── chapter-02.png
+│       └── ...
+└── chapters/
+    └── ...
+```
+
+In `story.yaml`, image paths are relative to that story's directory:
+
+```yaml
+cover: artwork/cover.png
+chapters:
+  - id: chapter-01
+    source: chapters/chapter-01.ru.md
+    illustration: artwork/chapters/chapter-01.png
+```
+
+The image fields have distinct roles:
+
+| Field | Role | Path base |
+| --- | --- | --- |
+| `book.yaml` → `cover` | Cover of the whole book | Book directory |
+| `story.yaml` → `cover` | Cover of that story | Story directory |
+| `story.yaml` → `chapters[].illustration` | Illustration of that chapter | Story directory |
+
+An author may explicitly reuse an image across these fields, but a story
+cover is not required to match the first chapter's illustration. The
+recommended story cover path is `artwork/cover.png`; chapter illustrations
+remain independent resources under `artwork/chapters/`.
+
 ## Markdown constructs observed in the pilot
 
 | Construct | Form | Meaning |
