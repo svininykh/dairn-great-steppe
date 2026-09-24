@@ -66,13 +66,36 @@ explicitly reuse an image, but story covers need not match first-chapter
 illustrations. See [Story covers and chapter illustrations](DAIRN_STORY_FORMAT.md#story-covers-and-chapter-illustrations)
 for the recommended layout. This convention does not make story covers required.
 
-## Structured heroes
+## Structured heroes and NPCs
 
 `book.yaml` may contain a `heroes` list. Every listed hero requires a stable,
 unique `id`; `name` is optional and its absence is meaningful. A package reader
 exposes this list as structured data and does not derive hero fields from prose
 or other authored resources. The package is immutable at runtime: a name
 provided by a reader belongs to a game session, not to this manifest.
+
+Issue #24 adds an optional `npcs` list with the same character contract.
+IDs must be unique across both lists. Existing `heroes` entries retain their
+meaning; no migration to a new character registry is required.
+
+Each hero or NPC may independently contain an optional `initial-state` mapping.
+It records authored facts at that character's entry into the story, which need
+not coincide with the opening chapter. An absent block, an empty `{}` block,
+and partially or fully authored blocks are all valid. Unknown values must be
+omitted, including nested values; readers must not supply defaults or derive
+them from descriptions. `null` is not a representation of an unknown value.
+There is no book-level `initial-state`.
+
+The normative field contract, collection semantics and examples are in
+[Character Initial State](CHARACTER_INITIAL_STATE.md). Hero and NPC state use
+the same [schema](schemas/character-initial-state.schema.json). Character
+description and identity remain separate from state. Creating or modifying
+session state is the responsibility of an external consumer and never changes
+the book's authored initial state.
+
+This is an additive manifest extension; the ZIP package version remains `0.1`.
+Books without these optional fields remain valid. Compatibility with any
+particular older external reader must be verified in that reader's repository.
 
 ## Minimal validation
 
@@ -81,6 +104,11 @@ the start-story reference, story-source references, start-chapter references,
 chapter-source references, and duplicate story/chapter IDs. This is deliberately
 not a full narrative-schema or rules validator. Each present chapter is also
 checked for duplicate scene IDs and `goto` targets absent from that chapter.
+
+When validating the character extension, also check the state schema, unique
+character IDs, companion references and explicitly supplied HP bounds. The
+local `validate_characters.py` checks only this extension, not the full package
+validation above; see [validation commands](README.md#проверки).
 
 ## First-chapter consumer profile
 

@@ -1,0 +1,61 @@
+# Synthetic format examples, not canon and not a complete book manifest.
+heroes:
+  - id: unspecified
+    # No initial-state, including no implied default values.
+  - id: empty
+    initial-state: {}
+  - id: partial
+    initial-state:
+      hp:
+        current: 2
+      inventory:
+        items:
+          - name: Дорожный посох
+            # Quantity, slots and the rest of the inventory are unknown.
+  - id: fully-authored
+    name: Пример героя
+    initial-state:
+      abilities: {str: 12, dex: 10, wil: 11}
+      hp: {current: 3, maximum: 5}
+      armor:
+        value: 0
+        sources: {complete: true, items: []}
+      inventory:
+        complete: true
+        items:
+          - name: Дорожный посох
+            kind: equipment
+            quantity: 1
+            slots: 1
+            damage: d6
+            properties: {complete: true, items: []}
+            notes: В руке
+          - name: Запас пищи
+            kind: supply
+            quantity: 1
+            uses: {current: 2, maximum: 3}
+            slots: 1
+      talisman:
+        name: Памятная бусина
+        quantity: 1
+        slots: 0
+        properties: {complete: true, items: []}
+      fatigue: 1
+      deprived: false
+      critical-damage:
+        present: false
+        consequences: {complete: true, items: []}
+      scars: {complete: true, items: [Старый шрам на ладони]}
+      features: {complete: true, items: []}
+      words: {complete: true, items: []}
+      companions:
+        complete: true
+        items:
+          - character-id: example-companion
+            # Identity and its state belong to that character definition.
+npcs:
+  - id: example-companion
+    name: Пример спутника
+    initial-state:
+      abilities: {str: 8}
+      hp: {current: 0}

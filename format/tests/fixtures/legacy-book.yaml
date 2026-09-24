@@ -1,0 +1,13 @@
+# Legacy manifest shape: neither initial-state nor npcs is required.
+book-id: legacy-example
+book-version: 0.1.0
+start-story: first-trial
+heroes:
+  - id: named
+    name: Герой
+    description: Описание остаётся вне игрового состояния
+    portrait: artwork/heroes/named.png
+  - id: unnamed
+stories:
+  - id: first-trial
+    source: stories/first-trial/story.yaml

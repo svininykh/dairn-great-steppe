@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DAIRN book character definitions and initial states",
+  "description": "Character extension only; not a complete book or package schema. No defaults are applied.",
+  "type": "object",
+  "properties": {
+    "initial-state": false,
+    "heroes": {"type": "array", "items": {"$ref": "#/$defs/character"}},
+    "npcs": {"type": "array", "items": {"$ref": "#/$defs/character"}}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "count": {"type": "integer", "minimum": 0},
+    "character": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {"$ref": "#/$defs/text"},
+        "name": {"$ref": "#/$defs/text"},
+        "initial-state": {"$ref": "#/$defs/state"}
+      }
+    },
+    "values": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "current": {"$ref": "#/$defs/count"},
+        "maximum": {"$ref": "#/$defs/count"}
+      }
+    },
+    "texts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "complete": {"type": "boolean"},
+        "items": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+      },
+      "dependentRequired": {"complete": ["items"]}
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {"$ref": "#/$defs/text"},
+        "kind": {"enum": ["equipment", "book", "relic", "supply", "valuable"]},
+        "quantity": {"$ref": "#/$defs/count"},
+        "uses": {"$ref": "#/$defs/values"},
+        "slots": {"type": "integer", "minimum": 0, "maximum": 2},
+        "damage": {"$ref": "#/$defs/text"},
+        "properties": {"$ref": "#/$defs/texts"},
+        "notes": {"$ref": "#/$defs/text"}
+      }
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "complete": {"type": "boolean"},
+        "items": {"type": "array", "items": {"$ref": "#/$defs/item"}}
+      },
+      "dependentRequired": {"complete": ["items"]}
+    },
+    "companion": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "character-id": {"$ref": "#/$defs/text"},
+        "name": {"$ref": "#/$defs/text"},
+        "kind": {"$ref": "#/$defs/text"},
+        "notes": {"$ref": "#/$defs/text"}
+      }
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "abilities": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "str": {"$ref": "#/$defs/count"},
+            "dex": {"$ref": "#/$defs/count"},
+            "wil": {"$ref": "#/$defs/count"}
+          }
+        },
+        "hp": {"$ref": "#/$defs/values"},
+        "armor": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value": {"type": "integer", "minimum": 0, "maximum": 3},
+            "sources": {"$ref": "#/$defs/texts"}
+          }
+        },
+        "inventory": {"$ref": "#/$defs/inventory"},
+        "talisman": {
+          "allOf": [
+            {"$ref": "#/$defs/item"},
+            {"properties": {"slots": {"const": 0}}}
+          ]
+        },
+        "fatigue": {"$ref": "#/$defs/count"},
+        "deprived": {"type": "boolean"},
+        "critical-damage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "present": {"type": "boolean"},
+            "consequences": {"$ref": "#/$defs/texts"}
+          }
+        },
+        "scars": {"$ref": "#/$defs/texts"},
+        "features": {"$ref": "#/$defs/texts"},
+        "words": {"$ref": "#/$defs/texts"},
+        "companions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "complete": {"type": "boolean"},
+            "items": {"type": "array", "items": {"$ref": "#/$defs/companion"}}
+          },
+          "dependentRequired": {"complete": ["items"]}
+        }
+      }
+    }
+  }
+}

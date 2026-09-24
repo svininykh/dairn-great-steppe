@@ -26,6 +26,14 @@ canon. It may also contain a structured `heroes` list: each hero has a stable
 `story-version`, `start-chapter`, optional cover and a chapter list. Chapter Markdown front matter contains `chapter-id`,
 `story-version`, `language`, `start`, and title.
 
+Issue #24 extends the book manifest with optional `npcs` and per-character
+`initial-state` in either `heroes` or `npcs`. See
+[Character Initial State](CHARACTER_INITIAL_STATE.md) for the shared contract.
+These authored starting facts are independent of chapter effects and session
+state. Missing facts remain unspecified; they are not extracted automatically
+from canon or narrative. The story directive syntax and story version are
+unchanged.
+
 Technical IDs are stable and are not localized. Equivalent localizations must
 retain compatible scene, choice, and transition IDs. Human text, headings, and
 dialogue may differ by language. A reader must select a language explicitly or
@@ -99,6 +107,10 @@ condition expressions, or effects. Pilot notes identify effect syntax and
 initial statistics as unapproved. Consumers must report unsupported constructs
 rather than infer mechanics. No rule semantics are defined here; the external
 DAIRN engine remains authoritative.
+
+The representation of initial state is now defined by Issue #24; the pilot's
+unapproved numeric statistics remain omitted. Defining their representation
+does not approve their values or resolve the experimental effect grammar.
 
 ## License boundary
 

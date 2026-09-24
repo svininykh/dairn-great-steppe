@@ -1,5 +1,5 @@
 book-id: battles-of-the-great-steppe
-book-version: 0.8.0
+book-version: 0.8.1
 title: Битвы Великой степи
 start-story: first-trial
 cover: artwork/covers/book-cover.png
@@ -16,14 +16,23 @@ heroes:
     name: Айбике
     description: Наблюдательная и осторожная
     portrait: artwork/heroes/aibike.png
+    initial-state:
+      companions:
+        items:
+          - kind: Верховой конь
   - id: karashash
     name: Қарашаш
     description: Смелая и решительная
     portrait: artwork/heroes/karashash.png
+    initial-state:
+      companions:
+        items:
+          - kind: Верховой конь
   - id: yersin
     name: Ерсін
     description: Спокойный и наблюдательный
     portrait: artwork/heroes/yersin.png
+    initial-state: {}
 
 stories:
   - id: first-trial
