@@ -14,5 +14,8 @@
   на русском языке;
 - [`player-character-sheet-en.md`](player-character-sheet-en.md) — English
   version.
+- [`player-character-sheet-demo-ru.md`](player-character-sheet-demo-ru.md) —
+  сокращённый планшет для демо-партии, простая таблица для заполнения
+  ведущим перед игрой.
 
 Терминология сверяется с [`../glossary.md`](../glossary.md).

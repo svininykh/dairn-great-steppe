@@ -14,7 +14,7 @@
   в пределах уже подготовленного базового снаряжения;
 - [Жизненный путь](../../tables/life-path-d20.md);
 - [Опыт и уникальные элементы](../../tables/life-path-unique-elements-d20.md);
-- [Стартовая Поклажа](../../tables/starting-inventory-6d6.md);
+- [Стартовая Поклажа](../../tables/starting-inventory-7d6.md);
 - [Образ и черты](../../tables/character-traits-8d10.md);
 - [Узы](../../tables/bonds_d20.md);
 - [Знамения](../../tables/omens-d20.md);

@@ -1,4 +1,4 @@
-# DAIRN --- Стартовая Поклажа 6d6
+# DAIRN --- Стартовая Поклажа 7d6
 
 Эта страница связывает рабочий мастер и подготовленные языковые версии.
 Правки содержания сначала вносятся в мастер, затем синхронизируются
@@ -6,10 +6,10 @@
 
 ## Рабочая основа
 
-- [Мастер](starting-inventory-6d6-master.md)
+- [Мастер](starting-inventory-7d6-master.md)
 
 ## Публичные версии
 
-- [Қазақша](starting-inventory-6d6-kk.md)
-- [Русский](starting-inventory-6d6-ru.md)
-- [English](starting-inventory-6d6-en.md)
+- [Қазақша](starting-inventory-7d6-kk.md)
+- [Русский](starting-inventory-7d6-ru.md)
+- [English](starting-inventory-7d6-en.md)

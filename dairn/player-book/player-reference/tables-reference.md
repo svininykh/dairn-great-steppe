@@ -8,7 +8,7 @@
 
 [Образ и черты персонажа `8d10`](../../tables/character-traits-8d10.md).
 
-[Стартовая Поклажа `6d6`](../../tables/starting-inventory-6d6.md).
+[Стартовая Поклажа `7d6`](../../tables/starting-inventory-7d6.md).
 
 ## Өмір жолы / Жизненный путь / Life Path
 

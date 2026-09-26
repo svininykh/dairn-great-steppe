@@ -7,16 +7,24 @@
 To create a character, complete these steps in order:
 
 1. **Determine your Life Path.** Choose a result or roll **d20** on the Life Path table.
-2. **Choose a name.** Choose your character's name.
-3. **Receive your starting Inventory.** Roll **6d6**: three dice determine Water, Food, and Fire; the other three determine a Weapon, Travel Gear, and a Tool.
-4. **Determine your Experience and unique Life Path element.** Record the Experience listed in the table, then receive a Talisman, Companion, or Valuable.
+2. **Determine your Experience and unique Life Path element.** Record the Experience listed in the table, then receive a Talisman, Companion, or Valuable.
+3. **Choose a name.** Choose your character's name.
+4. **Receive your starting Inventory.** Roll **7d6**: three dice determine Water, Food, and Fire; the other four determine a Weapon, Travel Gear, a Tool, and protective equipment.
 5. **Determine your Ability Scores.** Roll **3d6** for Strength, Dexterity, and Will, in that order; you may then swap any two results.
 6. **Determine your Hit Protection.** Roll **1d6** for your starting **HP**.
 7. **Determine your appearance and traits.** Establish your appearance, manner, Virtue, and Flaw.
 8. **Determine your Bond.** Choose a result or roll **d20** on the Bonds table.
 9. **Determine your age.** Roll **2d20+10**.
 10. **Determine the Party's Omen.** Once all players have created their characters, the player of the youngest character rolls **d20** on the Omens table, reads the result to the Party, and records it on their character sheet. The Foundling has a separate rule.
-11. **Check your character sheet.** Make sure all results and occupied Inventory Slots are recorded.
+11. **Check your character sheet and load.** Record all results, weapon Damage,
+    protective equipment, applicable Armor, and current / maximum HP.
+    Decide which items the character carries and which a Companion carries,
+    if its capabilities allow this. Track their loads separately; a Companion
+    does not increase the character's personal limit of 10 slots.
+    Include worn equipment and Life Path items. Leave behind or transfer
+    excess items; at exactly 10 occupied slots, current HP is 0.
+    Check that the equipment can be used together: a shield cannot protect
+    you while both hands are drawing a bow.
 
 After completing these steps, your character is ready for their first **Adventure**.
 
@@ -63,13 +71,14 @@ A name grants no mechanical advantages and does not restrict your character's ac
 
 ## Starting Inventory
 
-Starting Inventory is determined only by rolling **6d6**.
+The base Inventory package is determined by rolling **7d6**. Items
+from your Life Path are additional.
 
-Roll three dice for **Water, Food, and Fire**. After rolling, you may swap any two of these three results once. Then roll three more dice separately for a **Weapon, Travel Gear, and a Tool**; these results cannot be swapped.
+Roll three dice for **Water, Food, and Fire**. After rolling, you may swap any two of these three results once. Then roll four more dice separately for a **Weapon, Travel Gear, a Tool, and protective equipment**; these results cannot be swapped.
 
-Roll results, the number of Inventory Slots each item occupies, and Supplies are listed in the separate [starting Inventory table, `6d6`](../../tables/starting-inventory-6d6-en.md).
+Roll results, the number of Inventory Slots each item occupies, and Supplies are listed in the separate [starting Inventory table, `7d6`](../../tables/starting-inventory-7d6-en.md).
 
-Basic equipment details are given in [Equipment, Valuables, and the Marketplace](../equipment/equipment-values-and-market-en.md). Record your weapon's damage die alongside its name.
+Basic equipment details are given in [Equipment, Valuables, and the Marketplace](../equipment/equipment-values-and-market-en.md). Record your weapon's damage die alongside its name. Record your protective equipment and the Armor value it provides while worn or used; keep Armor separate from HP.
 
 Record the items in your character's Inventory. The total Inventory limit is **10 slots**. A **Bag** has a capacity of up to **6 slots**, included in the character's total of **10**; it does not increase the total Inventory limit.
 
@@ -100,6 +109,11 @@ The uses of Strength, Dexterity, and Will and the Check rules are described in [
 ## Hit Protection (HP)
 
 When creating your character, roll **1d6**. The result is their starting **HP**.
+
+This roll is separate from the seven Inventory dice. Record current / maximum
+HP and Armor separately: armor reduces incoming Damage and does not increase
+HP. With all 10 Inventory Slots occupied, current HP is 0; keep the rolled
+maximum. Check the final load before departing.
 
 Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [Game Procedures](../playing-in-the-world/game-procedures.md) and [Combat](../danger-and-combat/combat.md).
 

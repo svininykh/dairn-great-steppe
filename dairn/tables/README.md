@@ -32,5 +32,5 @@ tables/
   выбором результата броском `d20`.
 - [`scars-d12.md`](scars-d12.md) — таблица Тыртықтар / Шрамов / Scars с
   выбором результата броском `d12`.
-- [`starting-inventory-6d6.md`](starting-inventory-6d6.md) — таблицы
-  `6d6` для определения стартовой Поклажи персонажа.
+- [`starting-inventory-7d6.md`](starting-inventory-7d6.md) — таблицы
+  `7d6` для определения стартовой Поклажи персонажа.
