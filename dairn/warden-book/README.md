@@ -26,6 +26,10 @@
 ### Неигровые персонажи, существа и группы
 - [Неигровые персонажи, существа и группы](npcs-creatures-and-groups/npcs-creatures-and-groups.md)
 
+### Бестиарий
+
+- [Бестиарий: шесть базовых существ и два сверхъестественных существа пилота](npcs-creatures-and-groups/bestiary.md)
+
 ### Опасности Великой Степи
 - [Холод](dangers-of-great-steppe/cold.md)
 - [Голод](dangers-of-great-steppe/hunger.md)
