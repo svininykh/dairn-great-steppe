@@ -1,6 +1,6 @@
 # DAIRN — Basic Equipment
 
-A reference for Weapons, Armor, Travel Gear, and Tools. Use the items listed in the [starting Inventory tables, `7d6`](starting-inventory-7d6-en.md), to determine starting equipment; not every item in this reference is part of the starting package.
+A reference for Weapons, Protective Equipment, Travel Gear, and Tools. Use the items listed in the [starting Inventory tables, `7d6`](starting-inventory-7d6-en.md), to determine starting equipment; not every item in this reference is part of the starting package.
 
 An ordinary item occupies **1 Inventory Slot**, a **Bulky** item **2**, and a **Petty** item **0**, unless the item specifies otherwise. Worn equipment counts toward the total limit of **10 slots**. A **Bag** holds up to **6 of these 10 slots**; it does not add slots. With all 10 slots occupied, current HP is 0; maximum HP is unchanged.
 
@@ -25,7 +25,7 @@ disarming, or other special properties.
 
 A weapon's damage die is a property of the weapon. Record it alongside the item's name; no separate roll is needed to determine it during character creation. When Attacking, use the [Combat rules](../player-book/danger-and-combat/combat.md).
 
-## Armor
+## Protective Equipment
 
 | Item | Armor | Inventory Slots | Note |
 | --- | ---: | ---: | --- |

@@ -16,7 +16,7 @@ To create a character, complete these steps in order:
 8. **Determine your Bond.** Choose a result or roll **d20** on the Bonds table.
 9. **Determine your age.** Roll **2d20+10**.
 10. **Determine the Party's Omen.** Once all players have created their characters, the player of the youngest character rolls **d20** on the Omens table, reads the result to the Party, and records it on their character sheet. The Foundling has a separate rule.
-11. **Check your character sheet and load.** Record all results, weapon Damage,
+11. **Check your character sheet and Inventory.** Record all results, weapon Damage,
     protective equipment, applicable Armor, and current / maximum HP.
     Decide which items the character carries and which a Companion carries,
     if its capabilities allow this. Track their loads separately; a Companion
@@ -115,7 +115,7 @@ When creating your character, roll **1d6**. The result is their starting **HP**.
 This roll is separate from the seven Inventory dice. Record current / maximum
 HP and Armor separately: armor reduces incoming Damage and does not increase
 HP. With all 10 Inventory Slots occupied, current HP is 0; keep the rolled
-maximum. Check the final load before departing.
+maximum. Check the final number of occupied Inventory Slots before departing.
 
 Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [Game Procedures](../playing-in-the-world/game-procedures.md) and [Combat](../danger-and-combat/combat.md).
 

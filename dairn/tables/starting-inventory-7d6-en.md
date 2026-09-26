@@ -15,7 +15,7 @@ Weapon damage dice and the number of Inventory Slots each item occupies are give
 | 5 | Cudgel | Length of cloth | Whetstone |
 | 6 | Sabre | Rope with hook | Cooking pot |
 
-### Load
+### Inventory Slots
 
 - **Shortbow + quiver of arrows** is a single Bulky set, occupying **2 Inventory Slots**.
 - A **felt rug** is Bulky and occupies **2 Inventory Slots**.

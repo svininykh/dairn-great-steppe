@@ -52,7 +52,7 @@ When several allies Attack one target, declare all Attacks before rolling. Make 
 
 A Companion's presence does not in itself grant the character an extra Attack or an automatic bonus. If a minor Companion has no assigned statistics, the Warden determines the consequences of their participation according to the circumstances.
 
-## Companions and Loads
+## Companions and Inventory
 
 Companions may help the Party carry equipment and Supplies when this is within their capabilities.
 

@@ -16,9 +16,9 @@ A shortbow and quiver of arrows count as a single Bulky set. The axe in the basi
 
 Attack procedures, Enhanced and Impaired Damage, attacking with two weapons, and ammunition are covered in [Combat](../danger-and-combat/combat.md).
 
-## Armor
+## Protective Equipment
 
-The [reference](../../tables/basic-equipment-en.md#armor) lists all six
+The [reference](../../tables/basic-equipment-en.md#protective-equipment) lists all six
 types: shield, helmet, gambeson, brigandine, chainmail, and mirror armor.
 
 Subtract Armor from Damage before applying it to Hit Protection.
@@ -30,7 +30,7 @@ Total Armor cannot exceed 3. For example, chainmail and a shield provide
 Armor 3. Worn equipment still occupies Inventory Slots; it does not
 increase Hit Protection.
 
-[Brigandine](../../tables/basic-equipment-en.md#armor) provides Armor 1,
+[Brigandine](../../tables/basic-equipment-en.md#protective-equipment) provides Armor 1,
 occupies 2 Inventory Slots, and is Bulky. It protects only while worn.
 Total Armor cannot exceed 3.
 
@@ -38,13 +38,17 @@ The complete [Mirror armor](../../tables/basic-equipment-en.md#mirror-armor)
 set provides Armor 3, occupies 2 slots, and is Bulky. The armor worn
 underneath is included in these statistics.
 
-## Ordinary Equipment
+## Travel Gear
 
-Basic Travel Gear and Tools, including the number of Inventory Slots each item occupies, are listed in the [reference table](../../tables/basic-equipment-en.md). A felt rug occupies 2 slots; a needle with strong thread and a whetstone occupy 0 slots; the other listed items and sets occupy 1 slot each.
+Items and their Inventory Slots are listed in the [reference table](../../tables/basic-equipment-en.md#travel-gear). A felt rug occupies 2 slots; the other listed items and sets occupy 1 slot each.
+
+## Tools
+
+Tools are listed in the [reference table](../../tables/basic-equipment-en.md#tools). A needle with strong thread and a whetstone occupy 0 slots; the other listed tools and sets occupy 1 slot each.
 
 What an item can do depends on its purpose and the circumstances. If its use involves risk or uncertainty, apply [Game Procedures](../playing-in-the-world/game-procedures.md).
 
-## Provisions
+## Food
 
 Starting Food — zhaya, toqash, qurt, talqan, or a listed combination — lasts **3 days** and occupies **1 Inventory Slot**. The specific selection is determined by the [starting Supplies table](../../tables/starting-inventory-7d6-en.md#supplies-water-food-and-fire).
 
