@@ -1,43 +1,57 @@
 # Формат DAIRN
 
-Этот каталог содержит существующую документацию формата DAIRN, перенесённую
-из репозитория `svininykh/dairn-storyteller-telegram-lab`. Материалы созданы
-до текущего архитектурного анализа и первоначально перенесены без переработки.
-В Issue #24 документы дополнены контрактом первоначального состояния персонажа.
+Здесь описано, как оформить интерактивную книгу DAIRN.
+Начните с [примера главы](DAIRN_CHAPTER_FORMAT.md#пример-минимальной-полной-главы):
+скопируйте его, напишите сцены и добавьте файл в
+[список глав истории](DAIRN_STORY_FORMAT.md#манифест-истории).
 
-- [DAIRN Book Package](DAIRN_BOOK_PACKAGE.md) — исходный путь
-  [`docs/DAIRN_BOOK_PACKAGE.md`](https://github.com/svininykh/dairn-storyteller-telegram-lab/blob/main/docs/DAIRN_BOOK_PACKAGE.md).
-- [DAIRN Story Format](DAIRN_STORY_FORMAT.md) — исходный путь
-  [`docs/DAIRN_STORY_FORMAT.md`](https://github.com/svininykh/dairn-storyteller-telegram-lab/blob/main/docs/DAIRN_STORY_FORMAT.md).
+## Структура книги
 
-Документы можно сопоставлять с распакованным пилотом в
-[`books/battles-of-the-great-steppe-pilot/`](../books/battles-of-the-great-steppe-pilot/).
-Их архитектурный статус и границы слоя `FORMAT` продолжают исследоваться в
-Issue #1; этот перенос не утверждает формат как окончательный.
+`.dairn` — ZIP-архив. Внутри, например:
 
-## Проверяемое происхождение
+```text
+dairn-package.yaml
+book.yaml
+stories/
+└── journey/
+    ├── story.yaml
+    ├── artwork/
+    └── chapters/
+        └── chapter-01.ru.md
+```
 
-Документы перенесены из commit
-[`7513d33d116358750ec79ba7efea7c6677e57130`](https://github.com/svininykh/dairn-storyteller-telegram-lab/tree/7513d33d116358750ec79ba7efea7c6677e57130)
-исходного репозитория. Git blob ID и SHA-256 исходных, доработкам предшествующих версий:
+`book.yaml` задаёт начальную историю и персонажей (`heroes`, `npcs`,
+их `initial-state`); `story.yaml` — начальную главу и список файлов глав.
 
-| Файл | Git blob ID | SHA-256 |
-| --- | --- | --- |
-| `DAIRN_BOOK_PACKAGE.md` | `800f05d8c1331aa6cb738afb817e63eaefc87e31` | `de4e22bdb2a6cb6b2786d3aa59300d106a6c69b719e028a1969d4e3f27a16b21` |
-| `DAIRN_STORY_FORMAT.md` | `731e6ecaf5ad14b4d53a2e6276f8e6f8971b3857` | `cb65dd6297051df7cfc5b0bb05e0513214c2c83935c48ae61d373216e5dcc739` |
+| Что нужно | Где читать |
+| --- | --- |
+| Написать главу: сцены, реплики, выборы | [Формат главы](DAIRN_CHAPTER_FORMAT.md) |
+| Собрать главы в историю, добавить иллюстрации | [Формат истории](DAIRN_STORY_FORMAT.md) |
+| Описать состояние персонажей | [Поля персонажа](CHARACTER_INITIAL_STATE.md), [примеры](examples/character-initial-states.yaml) |
+| Упаковать книгу в `.dairn` | [Пакет книги](DAIRN_BOOK_PACKAGE.md) |
+| Посмотреть особенности пилота и происхождение документов | [Сопоставление с пилотом](PILOT-COMPARISON.md) |
 
-Эти суммы относятся к историческому источнику, а не к текущим документам,
-изменённым в Issue #24.
+Первые четыре документа — спецификации. Примеры и наблюдения пилота
+не добавляют правил. «Экспериментально» означает, что запись ещё
+уточняется; «Открытый вопрос» — что решение пока не принято.
 
-## Первоначальное состояние
+## Что определяет формат
 
-- [Контракт и соответствие планшету](CHARACTER_INITIAL_STATE.md).
-- [JSON Schema](schemas/character-initial-state.schema.json).
-- [Примеры заполнения](examples/character-initial-states.yaml).
+Формат задаёт поля, ID, связи сцен и пути ресурсов.
+[Игровые правила](../dairn/README.md) определяют характеристики, броски,
+Защиту, Броню, Урон и Поклажу. Движок выполняет проверки и эффекты,
+выбирает язык интерфейса и хранит игровую сессию, не меняя авторские файлы.
+О неподдерживаемых конструкциях движок должен сообщать.
 
 ## Проверки
 
-Из корня репозитория, Python 3.10 или новее:
+Для персонажей есть [JSON Schema](schemas/character-initial-state.schema.json)
+и Python-валидатор. Полной проверки пакета и глав пока нет: схемы
+`dairn-package.schema.json`, `book.schema.json` и `story.schema.json`
+можно добавить позже. Требования документации действуют и без схем.
+
+`schemas/`, `examples/`, `tests/` — инструменты этого каталога;
+включать их в книгу не требуется. Из корня репозитория, Python 3.10+:
 
 ```sh
 python3 -m venv /tmp/dairn-format-venv
@@ -46,8 +60,6 @@ python3 -m venv /tmp/dairn-format-venv
 /tmp/dairn-format-venv/bin/python -B format/validate_characters.py books/battles-of-the-great-steppe-pilot/book.yaml
 ```
 
-При уже установленных зависимостях можно использовать `python3` напрямую.
-Валидатор проверяет расширение персонажей распакованного `book.yaml` и
-возвращает ненулевой код при ошибке. Это не полный валидатор пакета `.dairn`
-или игровой механики. Тесты включают чтение манифеста из ZIP, старый формат
-без состояния, примеры и текущий пилот; внешний Engine здесь не запускается.
+При установленных зависимостях можно использовать `python3` напрямую.
+Валидатор проверяет только персонажей в распакованном `book.yaml`,
+возвращает ненулевой код при ошибке и не изменяет данные.

@@ -1,28 +1,34 @@
-# DAIRN Book Package v0.1
+# Пакет книги DAIRN v0.1
 
 SPDX-License-Identifier: Apache-2.0
 
-## Scope
+Спецификация контейнера `.dairn` и `book.yaml`.
+[Главная страница формата](README.md)
+содержит карту документов и разграничение ответственности формата,
+игровых правил и движка.
 
-A `.dairn` is a portable distribution container around an authored DAIRN book.
-It was introduced in Issue #5. It does not replace Markdown, define game
-mechanics, or depend on StoryPlayer or Telegram implementation details.
+## Область применения
 
-## Physical format
+`.dairn` — переносимый контейнер для распространения авторской книги DAIRN.
+Он введён в задаче #5. Контейнер не заменяет Markdown, не определяет игровую
+механику и не зависит от деталей реализации StoryPlayer или Telegram.
 
-The file extension is `.dairn`. Its bytes are a standard ZIP archive using
-UTF-8 entry names and UTF-8 text files. Entries are relative slash-separated
-paths; absolute paths, empty path components, and `..` are invalid. Unknown
-safe files are preserved and ignored by readers that do not understand them.
+## Физический формат
 
-Archive root contains no enclosing book directory. Required entries are:
+Расширение файла — `.dairn`. Содержимое — стандартный ZIP-архив с именами
+записей и текстовыми файлами в UTF-8. Пути записей относительные, с прямой
+косой чертой в качестве разделителя; абсолютные пути, пустые компоненты
+пути и `..` недопустимы. Неизвестные безопасные файлы сохраняются;
+программы чтения, которые их не понимают, игнорируют их.
+
+В корне архива нет оборачивающего каталога книги. Обязательные файлы:
 
 ```text
 dairn-package.yaml
 book.yaml
 ```
 
-`dairn-package.yaml` is created by the packager:
+`dairn-package.yaml` создаётся упаковщиком:
 
 ```yaml
 package-format: dairn-book-package
@@ -30,14 +36,15 @@ package-version: "0.1"
 book: book.yaml
 ```
 
-Readers must reject a package they cannot open, an absent manifest, another
-format name, another package version, or another book entry point. Compatible
-future versions may add optional fields and files; an incompatible version
-must be reported, not guessed.
+Программа чтения должна отклонить пакет, если его невозможно открыть,
+манифест отсутствует, указаны другое имя формата, другая версия пакета
+или другая точка входа в книгу. Будущие совместимые версии могут добавлять
+необязательные поля и файлы; о несовместимой версии нужно сообщать,
+а не пытаться угадать её устройство.
 
-## Book layout
+## Структура книги
 
-The supplied pilot is the baseline and contains:
+Пример структуры:
 
 ```text
 book.yaml
@@ -50,94 +57,70 @@ stories/<story-id>/chapters/*.md
 stories/<story-id>/artwork/
 ```
 
-Only `book.yaml` and the resources it references are required by this package
-specification. The other directories are optional. `book.yaml` identifies the
-starting story; its story manifest identifies the starting chapter and each
-chapter source. A package reader must not assume every optional directory
-exists.
+Эта спецификация пакета требует только `book.yaml` и ресурсы, на которые
+он ссылается. Остальные каталоги необязательны. `book.yaml` определяет
+начальную историю; её манифест определяет начальную главу и исходный файл
+каждой главы. Программа чтения пакета не должна предполагать наличие
+всех необязательных каталогов.
 
-`book.yaml` → `cover` identifies the whole book's cover relative to the book
-directory (for example, `artwork/covers/book-cover.png`). Each story may also
-have its own optional `story.yaml` → `cover`, recommended at `artwork/cover.png`
-relative to that story's directory. This is independent of
-`story.yaml` → `chapters[].illustration`, whose paths are also relative to the
-story directory (for example, `artwork/chapters/chapter-01.png`). Authors may
-explicitly reuse an image, but story covers need not match first-chapter
-illustrations. See [Story covers and chapter illustrations](DAIRN_STORY_FORMAT.md#story-covers-and-chapter-illustrations)
-for the recommended layout. This convention does not make story covers required.
+Поле `cover` задаёт обложку относительно каталога книги, например
+`artwork/covers/book-cover.png`. Обложки историй и иллюстрации глав
+описаны в [формате истории](DAIRN_STORY_FORMAT.md#обложки-историй-и-иллюстрации-глав).
 
-## Structured heroes and NPCs
+## Структурированные герои и неигровые персонажи
 
-`book.yaml` may contain a `heroes` list. Every listed hero requires a stable,
-unique `id`; `name` is optional and its absence is meaningful. A package reader
-exposes this list as structured data and does not derive hero fields from prose
-or other authored resources. The package is immutable at runtime: a name
-provided by a reader belongs to a game session, not to this manifest.
+Необязательные списки `heroes` и `npcs` используют один контракт:
+у каждого персонажа обязателен стабильный `id`, уникальный среди обоих
+списков; имя может отсутствовать. Поля не извлекаются из литературного
+текста. Заданное игроком имя относится к сессии, а не к манифесту.
 
-Issue #24 adds an optional `npcs` list with the same character contract.
-IDs must be unique across both lists. Existing `heroes` entries retain their
-meaning; no migration to a new character registry is required.
+Необязательный `initial-state` хранится у персонажа, не у книги, и описывает
+его состояние при вступлении в историю. Отсутствующий, пустой и частичный
+блоки допустимы; неизвестные значения пропускаются. Все поля, правила
+заполнения и примеры приведены в
+[справочнике состояния](CHARACTER_INITIAL_STATE.md).
 
-Each hero or NPC may independently contain an optional `initial-state` mapping.
-It records authored facts at that character's entry into the story, which need
-not coincide with the opening chapter. An absent block, an empty `{}` block,
-and partially or fully authored blocks are all valid. Unknown values must be
-omitted, including nested values; readers must not supply defaults or derive
-them from descriptions. `null` is not a representation of an unknown value.
-There is no book-level `initial-state`.
+## Локализованный текст персонажей
 
-The normative field contract, collection semantics and examples are in
-[Character Initial State](CHARACTER_INITIAL_STATE.md). Hero and NPC state use
-the same [schema](schemas/character-initial-state.schema.json). Character
-description and identity remain separate from state. Creating or modifying
-session state is the responsibility of an external consumer and never changes
-the book's authored initial state.
+Отображаемые поля принимают строку или переводы `kk`, `ru`, `en`;
+точный список полей и выбор языка описаны в
+[правилах локализации](CHARACTER_INITIAL_STATE.md#локализация-отображаемых-полей).
+Технические ID и пути не переводятся.
 
-This is an additive manifest extension; the ZIP package version remains `0.1`.
-Books without these optional fields remain valid. Compatibility with any
-particular older external reader must be verified in that reader's repository.
+Эти расширения не меняют версию пакета `0.1`: книги без состояния и переводов
+остаются допустимыми. Для новых полей нужна поддержка программы чтения;
+совместимость со старой реализацией проверяется в её проекте.
 
-## Localized character text
+## Минимальная проверка
 
-Character `name`, `description`, and `notes`, plus item, talisman, and
-companion `name` and `notes`, accept either a legacy nonblank string or a
-nonempty map of nonblank translations keyed by `kk`, `ru`, and `en`.
-Unknown translations are omitted; other locale keys and null values are
-invalid. See the [localized text contract](CHARACTER_INITIAL_STATE.md#локализация-отображаемых-полей).
-Display selects the requested language, then `kk`; if neither exists,
-the field is unavailable. Legacy strings display unchanged. Validation
-preserves the entire map and does not select or generate a translation.
-Technical IDs, resource paths, kinds, and properties are not localized.
-Existing books remain valid, but consumers must support translation maps
-before loading localized books. The container version remains `0.1`.
+Проверяются возможность чтения ZIP, безопасность путей, манифест и версия
+пакета, `book.yaml`, ссылка на начальную историю, ссылки на исходные файлы
+историй, ссылки на начальные главы и исходные файлы глав, а также дубликаты
+ID историй и глав. Это не полная проверка схемы повествования или игровых
+правил. В каждой имеющейся главе также проверяются дубликаты ID сцен
+и цели `goto`, отсутствующие в этой главе.
 
-## Minimal validation
+При проверке расширения персонажей дополнительно проверяются схема
+состояния, уникальность ID персонажей, ссылки на спутников и явно заданные
+границы Защиты. Локальный `validate_characters.py` проверяет только это
+расширение, а не весь пакет по перечисленным выше требованиям;
+см. [команды проверки](README.md#проверки).
 
-Validate ZIP readability, safe paths, package manifest/version, `book.yaml`,
-the start-story reference, story-source references, start-chapter references,
-chapter-source references, and duplicate story/chapter IDs. This is deliberately
-not a full narrative-schema or rules validator. Each present chapter is also
-checked for duplicate scene IDs and `goto` targets absent from that chapter.
+## Профиль потребителя первой главы
 
-When validating the character extension, also check the state schema, unique
-character IDs, companion references and explicitly supplied HP bounds. The
-local `validate_characters.py` checks only this extension, not the full package
-validation above; see [validation commands](README.md#проверки).
+Потребитель, которому нужно только изображение начального контекста,
+читает `book.yaml`, его `start-story`, затем `start-chapter` этой истории
+и исходный файл главы на выбранном языке. Он может использовать авторский
+текст этой главы и явно указанный канон как контекст и прекращает работу
+после создания изображения. Он не должен незаметно читать последующие
+главы или выдавать их события за текущий контекст.
 
-## First-chapter consumer profile
+При этом пакет содержит все ресурсы книги без изменений. Конкретный
+маршрут пилота приведён в
+[сопоставлении с пилотом](PILOT-COMPARISON.md).
 
-A consumer that only needs an opening-context image reads `book.yaml`, its
-`start-story`, that story's `start-chapter`, then the chapter source for the
-chosen language. It may use that chapter's authored text and explicitly
-referenced canon as context, and stops after rendering the image. It must not
-silently read later chapters or claim their events as current context.
+## Границы лицензии
 
-For the supplied pilot this resolves to `first-trial` → `chapter-01` →
-`stories/first-trial/chapters/chapter-01.ru.md`. The package nevertheless
-contains all book resources unchanged.
-
-## License boundary
-
-This package specification is Apache-2.0. Content licenses remain independent
-and must be carried in existing metadata or documented by the book publisher;
-packaging never relicenses content.
+Эта спецификация пакета распространяется по Apache-2.0. Лицензии содержимого
+независимы и должны быть указаны в существующих метаданных или документации
+издателя книги; упаковка не меняет лицензии содержимого.
