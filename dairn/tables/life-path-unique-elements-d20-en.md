@@ -49,7 +49,7 @@ The player determines one area of the character's Experience and the reason they
 
 ### Foresight
 
-Your character may attempt to foresee the near future. When the outcome has not yet been determined, the Warden rolls the **Die of Fate** and describes the sign your character sees.
+Your character may attempt to foresee the near future. When the outcome has not yet been determined, the Warden rolls the **Die of Fate (d6)** and describes the sign your character sees.
 
 Foresight does not change the future or guarantee an accurate answer.
 

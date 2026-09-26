@@ -1,6 +1,6 @@
 # Introduction, Principles, and Roles
 
-*Structural basis: Cairn 2e --- Overview & Principles.*
+*Structural basis: Cairn 2e — Overview & Principles.*
 
 ## What Is DAIRN?
 

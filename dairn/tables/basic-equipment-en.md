@@ -1,6 +1,8 @@
 # DAIRN — Basic Equipment
 
-A reference for Weapons, Travel Gear, and Tools used in [starting Inventory, `7d6`](starting-inventory-7d6-en.md). Rules for tracking items are given in [Equipment, Valuables, and the Marketplace](../player-book/equipment/equipment-values-and-market-en.md).
+A reference for Weapons, Armor, Travel Gear, and Tools. Use the items listed in the [starting Inventory tables, `7d6`](starting-inventory-7d6-en.md), to determine starting equipment; not every item in this reference is part of the starting package.
+
+An ordinary item occupies **1 Inventory Slot**, a **Bulky** item **2**, and a **Petty** item **0**, unless the item specifies otherwise. Worn equipment counts toward the total limit of **10 slots**. A **Bag** holds up to **6 of these 10 slots**; it does not add slots. With all 10 slots occupied, current HP is 0; maximum HP is unchanged.
 
 ## Weapons
 
@@ -14,15 +16,12 @@ A reference for Weapons, Travel Gear, and Tools used in [starting Inventory, `7d
 | Sabre | d8 | 1 | — |
 | Qamshy (whip) | d4 | 1 | No additional combat properties |
 
-The composite bow and quiver in the pilot's initial character profiles use
-the Shortbow + quiver of arrows definition: `d6`, 2 slots, one Bulky set.
-Composite construction grants no separate bonus.
+A composite bow with a quiver uses the shortbow's statistics:
+`d6`, 2 slots, one Bulky set. Composite construction grants no separate bonus.
 
-The qamshy was added for Yersin's visible whip in the pilot (Issue #25).
-This is an authored DAIRN game definition: an ordinary one-slot item with
-base damage `d4`, matching an unarmed Attack in the Combat rules. The weapon
-itself does not make an Attack Impaired. Damage, range, Blast, disarming,
-and other special properties are not inferred from the image.
+A qamshy (whip) is an ordinary item occupying 1 slot and dealing `d4` Damage.
+The whip itself does not make an Attack Impaired or grant Blast,
+disarming, or other special properties.
 
 A weapon's damage die is a property of the weapon. Record it alongside the item's name; no separate roll is needed to determine it during character creation. When Attacking, use the [Combat rules](../player-book/danger-and-combat/combat.md).
 

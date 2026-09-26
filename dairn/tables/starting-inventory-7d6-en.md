@@ -25,7 +25,7 @@ Weapon damage dice and the number of Inventory Slots each item occupies are give
 
 ## Protective Equipment
 
-Roll a separate d6 and receive one item. Do not add the seven dice together; each die determines its own category.
+The seventh die of the **7d6** determines protective equipment. Receive one item according to its result. Do not add the seven dice together; each die determines its own category.
 
 | d6 | Protective Equipment | Armor | Slots |
 | ---: | --- | ---: | ---: |
@@ -63,4 +63,4 @@ Distribute items between the character and a Companion if its capabilities
 allow it to carry them. Track their loads separately; a Companion does not
 increase the character's personal limit of 10 slots.
 
-Before departing, count all slots, including worn armor and any items from your Life Path. The starting table can yield 4–12 slots before swapping Supplies. If the total exceeds 10, leave behind or transfer enough items to bring your own load within the limit. At exactly 10 occupied slots, current HP is 0; record the rolled maximum separately. To start without this penalty, carry no more than 9 slots. A bag does not increase the limit.
+Before departing, count all slots, including worn armor and any items from your Life Path and Bond. The starting table can yield 4–12 slots before swapping Supplies. If the total exceeds 10, leave behind or transfer enough items to bring your own load within the limit. At exactly 10 occupied slots, current HP is 0; record the rolled maximum separately. To start without this penalty, carry no more than 9 slots. A bag does not increase the limit.

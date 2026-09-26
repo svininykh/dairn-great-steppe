@@ -21,7 +21,7 @@ To create a character, complete these steps in order:
     Decide which items the character carries and which a Companion carries,
     if its capabilities allow this. Track their loads separately; a Companion
     does not increase the character's personal limit of 10 slots.
-    Include worn equipment and Life Path items. Leave behind or transfer
+    Include worn equipment, Life Path items, and Bond items. Leave behind or transfer
     excess items; at exactly 10 occupied slots, current HP is 0.
     Check that the equipment can be used together: a shield cannot protect
     you while both hands are drawing a bow.
@@ -78,9 +78,11 @@ Roll three dice for **Water, Food, and Fire**. After rolling, you may swap any t
 
 Roll results, the number of Inventory Slots each item occupies, and Supplies are listed in the separate [starting Inventory table, `7d6`](../../tables/starting-inventory-7d6-en.md).
 
-Basic equipment details are given in [Equipment, Valuables, and the Marketplace](../equipment/equipment-values-and-market-en.md). Record your weapon's damage die alongside its name. Record your protective equipment and the Armor value it provides while worn or used; keep Armor separate from HP.
+Weapon and protective equipment statistics, along with item slot requirements, are given in the [basic equipment reference](../../tables/basic-equipment-en.md). Record your weapon's damage die alongside its name. Record your protective equipment and the Armor value it provides while worn or used; keep Armor separate from HP.
 
 Record the items in your character's Inventory. The total Inventory limit is **10 slots**. A **Bag** has a capacity of up to **6 slots**, included in the character's total of **10**; it does not increase the total Inventory limit.
+
+An ordinary item occupies **1 Inventory Slot**, a **Bulky** item **2**, and a **Petty** item **0**, unless the item specifies otherwise. Worn equipment counts toward the limit. Items received through Bonds count toward the same Inventory limit.
 
 All received items are recorded and tracked according to [The Character in Play](character-in-play.md). The procedures for gaining Fatigue, becoming Deprived, and recovering are given in [Game Procedures](../playing-in-the-world/game-procedures.md).
 

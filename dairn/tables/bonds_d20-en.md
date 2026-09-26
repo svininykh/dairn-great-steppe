@@ -34,6 +34,7 @@ Roll **d20** or choose a suitable result.
 - The table contains exactly **20** results and uses **d20**.
 - A Bond creates an unresolved connection between the character and the world, and a potential foundation for a future Adventure.
 - Items marked **Petty** use the term **Petty** and occupy 0 Inventory Slots.
+- Bond items count toward the total Inventory limit. An item without a special designation occupies 1 slot, including the old belt (No. 1), sybyzgy (No. 18), and metal bowl (No. 20).
 - Result No. 8 deliberately leaves the nature of the distant country undefined and contains no direct references to other game worlds.
 
 ## Basis of Adaptation
