@@ -51,15 +51,31 @@ A Life Path establishes Experience, but not a complete biography. The player and
 
 Each Life Path determines your character's **Experience**: an area of practical knowledge and ability acquired before their Adventures began.
 
-Experience is not a skill system, has no numerical value, and grants no bonuses to Checks. If Experience makes it clear that your character can perform an ordinary action, **no Check is required**.
-
-When there is real danger or uncertainty, the normal Check rules apply. Experience helps establish what your character knows, notices, or can do, but does not guarantee success.
+Record the Experience listed for your chosen Life Path on your character
+sheet. Its use in play is described under
+[Experience](character-in-play-en.md#experience).
 
 ### Life Paths and the Great Steppe
 
 A Life Path connects your character to the world of DAIRN. Through it, you learn not only about your character, but also about the Great Steppe: its people, occupations, roads, customs, dangers, and mysteries.
 
 A Life Path is not a complete biography. It gives your character a starting point for their story. Who they become is determined during their Adventures.
+
+## Experience and the Unique Life Path Element
+
+Find your character's Life Path in the separate [Experience and unique elements table, `d20`](../../tables/life-path-unique-elements-d20-en.md). Record the listed **Experience** on your character sheet, then receive the unique element.
+
+### Talisman
+
+A **Talisman** is a small personal item received through a Life Path and connected to your character's past. A Talisman is always **Petty** and occupies **0 Inventory Slots**. Having a Talisman does not in itself mean that the item has supernatural properties. Record it in the Talisman field.
+
+### Companion
+
+If your Life Path grants a **Companion**, record them in the Companions field. The Companion begins the game with your character and occupies no slots in your character's Inventory. Their own Inventory is tracked separately under the [Companion rules](companions-en.md). Give the Companion a name if you wish.
+
+### Valuable
+
+If the result is a **Valuable**, record it separately as instructed by that result. A Valuable is not a Talisman or part of the starting Inventory roll.
 
 ## Name
 
@@ -85,22 +101,6 @@ Record the items in your character's Inventory. The total Inventory limit is **1
 An ordinary item occupies **1 Inventory Slot**, a **Bulky** item **2**, and a **Petty** item **0**, unless the item specifies otherwise. Worn equipment counts toward the limit. Items received through Bonds count toward the same Inventory limit.
 
 All received items are recorded and tracked according to [The Character in Play](character-in-play.md). The procedures for gaining Fatigue, becoming Deprived, and recovering are given in [Game Procedures](../playing-in-the-world/game-procedures.md).
-
-## Experience and the Unique Life Path Element
-
-Find your character's Life Path in the separate [Experience and unique elements table, `d20`](../../tables/life-path-unique-elements-d20-en.md). Record the listed **Experience** on your character sheet, then receive the unique element.
-
-### Talisman
-
-A **Talisman** is a small personal item received through a Life Path and connected to your character's past. A Talisman is always **Petty** and occupies **0 Inventory Slots**. Having a Talisman does not in itself mean that the item has supernatural properties. Record it in the Talisman field.
-
-### Companion
-
-If your Life Path grants a **Companion**, record them in the Companions field. The Companion begins the game with your character and occupies no slots in your character's Inventory. Their own Inventory is tracked separately under the [Companion rules](companions-en.md). Give the Companion a name if you wish.
-
-### Valuable
-
-If the result is a **Valuable**, record it separately as instructed by that result. A Valuable is not a Talisman or part of the starting Inventory roll.
 
 ## Ability Scores
 
@@ -152,7 +152,8 @@ Roll **2d20+10** to determine your character's age. Starting age is therefore **
 
 Age does not in itself grant bonuses or penalties.
 
-Once all characters' ages have been determined, compare them. The player of the **youngest character** determines the Party's shared Omen. If several characters are tied for youngest, the Omen is determined by whichever of their players rolled for age last.
+Age is used to determine the Party's shared Omen; see the
+[Party Procedure](#party-procedure).
 
 ## Omen
 
@@ -179,13 +180,14 @@ Before your first Adventure, make sure you have recorded:
 - name;
 - Life Path;
 - Experience;
-- starting Inventory;
+- starting Inventory, weapon Damage, and active Armor;
 - Talisman, Companion, or Valuable, if received through your Life Path;
 - Strength, Dexterity, and Will;
-- Hit Protection (HP);
+- current and maximum HP;
 - appearance and traits;
 - Bond;
 - age;
-- Omen, if this character determined the Party's Omen.
+- the Party's shared Omen, if this character determined it;
+- secret Omen, if the character is a Foundling.
 
 Fill in only the type of unique element granted by your particular Life Path. Check the occupied Inventory Slots. Your character is now ready to play.

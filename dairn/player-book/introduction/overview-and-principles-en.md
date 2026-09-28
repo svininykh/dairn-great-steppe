@@ -15,6 +15,11 @@ do, and events in the game world determine the consequences of their
 decisions. Rules and dice come into play when the outcome is genuinely
 uncertain and involves risk.
 
+## What You Need
+
+- A character sheet and writing supplies.
+- Dice: `d4`, `d6`, `d8`, `d10`, `d12`, `d20`.
+
 ## Player, Character, and Warden
 
 A **Player** makes decisions for their Player Character. Ability Scores
@@ -108,7 +113,7 @@ valid decisions.
 ## Character Change
 
 A character develops as a result of events in the game world. The
-dangers they survive, relationships, discoveries, Scars, training, and
+dangers they survive, relationships, discoveries, training, and
 other significant events may change their abilities, connections, and
 place in the world.
 

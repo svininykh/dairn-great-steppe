@@ -34,7 +34,6 @@ Each Ability Score has a field for its current value.
 - **Armor** — the Armor value and its source;
 - **Damage** — a temporary record of Damage taken;
 - **Critical Damage** — a mark and its consequences;
-- **Scar / Scars** — Scars received.
 
 ## Condition and Recovery
 
