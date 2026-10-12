@@ -6,7 +6,7 @@ This chapter explains your character's main scores and states and how they
 work during play. General procedures for Turns, rest, treatment, and recovery
 are given in [Game Procedures](../playing-in-the-world/game-procedures.md),
 while the sequence of combat actions is covered in
-[Combat](../danger-and-combat/combat.md).
+[Combat](../danger-and-combat/combat-en.md).
 
 ## In This Chapter
 
@@ -344,7 +344,7 @@ Strength Check to avoid Critical Damage.
 
 If a character fails a STR Check after taking Damage, they suffer
 **Critical Damage**. Its combat consequences are set out in
-[Combat](../danger-and-combat/combat.md#критический-урон).
+[Combat](../danger-and-combat/combat-en.md#critical-damage).
 
 A character suffering Critical Damage can no longer act normally.
 They can only crawl with difficulty and perform the simplest actions

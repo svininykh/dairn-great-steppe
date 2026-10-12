@@ -23,7 +23,7 @@ A qamshy (whip) is an ordinary item occupying 1 slot and dealing `d4` Damage.
 The whip itself does not make an Attack Impaired or grant Blast,
 disarming, or other special properties.
 
-A weapon's damage die is a property of the weapon. Record it alongside the item's name; no separate roll is needed to determine it during character creation. When Attacking, use the [Combat rules](../player-book/danger-and-combat/combat.md).
+A weapon's damage die is a property of the weapon. Record it alongside the item's name; no separate roll is needed to determine it during character creation. When Attacking, use the [Combat rules](../player-book/danger-and-combat/combat-en.md).
 
 ## Protective Equipment
 

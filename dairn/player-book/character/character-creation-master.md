@@ -205,7 +205,7 @@
 Значение Защиты закреплено в главе
 [«Персонаж в игре»](character-in-play.md), а её потеря и восстановление —
 в [«Правилах игры»](../playing-in-the-world/game-procedures.md) и главе
-[«Схватка»](../danger-and-combat/combat.md).
+[«Схватка»](../danger-and-combat/combat-master.md).
 
 ## Образ и черты
 

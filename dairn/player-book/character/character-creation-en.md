@@ -132,7 +132,7 @@ HP and Armor separately: armor reduces incoming Damage and does not increase
 HP. With all 10 Inventory Slots occupied, current HP is 0; keep the rolled
 maximum. Check the final number of occupied Inventory Slots before departing.
 
-Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [Game Procedures](../playing-in-the-world/game-procedures.md) and [Combat](../danger-and-combat/combat.md).
+Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [Game Procedures](../playing-in-the-world/game-procedures.md) and [Combat](../danger-and-combat/combat-en.md).
 
 ## Appearance and Traits
 

@@ -14,7 +14,7 @@ The [reference table](../../tables/basic-equipment-en.md#weapons) gives each wea
 
 A shortbow and quiver of arrows count as a single Bulky set. The axe in the basic set is an ordinary axe and occupies one slot; the sabre corresponds to a sword.
 
-Attack procedures, Enhanced and Impaired Damage, attacking with two weapons, and ammunition are covered in [Combat](../danger-and-combat/combat.md).
+Attack procedures, Enhanced and Impaired Damage, attacking with two weapons, and ammunition are covered in [Combat](../danger-and-combat/combat-en.md).
 
 ## Protective Equipment
 
