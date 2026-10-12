@@ -8,6 +8,23 @@ are given in [Game Procedures](../playing-in-the-world/game-procedures.md),
 while the sequence of combat actions is covered in
 [Combat](../danger-and-combat/combat.md).
 
+## In This Chapter
+
+- [Character](#character)
+- [Ability Scores](#ability-scores)
+- [Life Path](#life-path)
+- [Check](#check)
+- [Die of Fate](#die-of-fate)
+- [Inventory](#inventory)
+- [Fatigue](#fatigue)
+- [Deprived](#deprived)
+- [Armor](#armor)
+- [Hit Protection](#hit-protection)
+- [Damage](#damage)
+- [Critical Damage](#critical-damage)
+- [Ability Score Loss](#ability-score-loss)
+- [In Brief](#in-brief)
+
 ## Character
 
 A Player Character is the hero through whom a Player acts in the world of

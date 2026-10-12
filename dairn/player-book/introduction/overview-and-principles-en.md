@@ -2,6 +2,20 @@
 
 *Structural basis: Cairn 2e — Overview & Principles.*
 
+## In This Chapter
+
+- [What Is DAIRN?](#what-is-dairn)
+- [What You Need](#what-you-need)
+- [Player, Character, and Warden](#player-character-and-warden)
+- [The Game World Comes First](#the-game-world-comes-first)
+- [Information and Danger](#information-and-danger)
+- [Decisions and Consequences](#decisions-and-consequences)
+- [The Party and Cooperative Play](#the-party-and-cooperative-play)
+- [Exploration and Preparation](#exploration-and-preparation)
+- [Danger](#danger)
+- [Character Change](#character-change)
+- [How Play Proceeds](#how-play-proceeds)
+
 ## What Is DAIRN?
 
 **DAIRN: Ұлы Дала Ғаламы** is a tabletop roleplaying game about

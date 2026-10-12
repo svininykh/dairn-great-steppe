@@ -2,6 +2,21 @@
 
 *Structural basis: Cairn 2e — Character Creation.*
 
+## In This Chapter
+
+- [Character Creation Sequence](#character-creation-sequence)
+- [Life Path](#life-path)
+- [Experience and the Unique Life Path Element](#experience-and-the-unique-life-path-element)
+- [Name](#name)
+- [Starting Inventory](#starting-inventory)
+- [Ability Scores](#ability-scores)
+- [Hit Protection (HP)](#hit-protection-hp)
+- [Appearance and Traits](#appearance-and-traits)
+- [Bond](#bond)
+- [Age](#age)
+- [Omen](#omen)
+- [Finishing Your Character](#finishing-your-character)
+
 ## Character Creation Sequence
 
 To create a character, complete these steps in order:
