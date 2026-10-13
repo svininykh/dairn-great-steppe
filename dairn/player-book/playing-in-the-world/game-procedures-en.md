@@ -1,4 +1,4 @@
-# Game Procedures
+# How Play Works
 
 *Chapter 05. Part II — Play and Travel.*
 
@@ -9,7 +9,7 @@ combat order is covered in [Chapter 04, Combat](../danger-and-combat/combat-en.m
 
 ## In This Chapter
 
-- [How Play Works](#how-play-works)
+- [Play at the Table](#play-at-the-table)
 - [Intent and Approach](#intent-and-approach)
 - [Checks and Consequences](#checks-and-consequences)
 - [Die of Fate](#die-of-fate)
@@ -22,7 +22,9 @@ combat order is covered in [Chapter 04, Combat](../danger-and-combat/combat-en.m
 - [Recovery](#recovery)
 - [The Basic Sequence](#the-basic-sequence)
 
-## How Play Works
+<a id="how-play-works"></a>
+
+## Play at the Table
 
 Play is a conversation between the Players and the Warden. The Warden
 describes the world and provides information available to the characters.
@@ -244,4 +246,3 @@ belong to Chapter 07 and do not replace these requirements.
    the characters' new situation.
 6. When aid or recovery is needed, check its requirements;
    then continue the conversation.
-

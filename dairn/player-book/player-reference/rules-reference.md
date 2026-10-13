@@ -12,7 +12,7 @@
 
 Значения показателей описаны в
 [мастере «Персонаж в игре»](../character/character-in-play-master.md),
-процедуры — в [«Процедурах игры»](../playing-in-the-world/game-procedures-master.md),
+процедуры — в [главе «Как проходит игра»](../playing-in-the-world/game-procedures-master.md),
 боевые последствия — в [«Схватке»](../danger-and-combat/combat.md).
 
 ## Схватка

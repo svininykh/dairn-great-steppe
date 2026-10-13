@@ -46,7 +46,7 @@ Items and their Inventory Slots are listed in the [reference table](../../tables
 
 Tools are listed in the [reference table](../../tables/basic-equipment-en.md#tools). A needle with strong thread and a whetstone occupy 0 slots; the other listed tools and sets occupy 1 slot each.
 
-What an item can do depends on its purpose and the circumstances. If its use involves risk or uncertainty, apply [Game Procedures](../playing-in-the-world/game-procedures-en.md).
+What an item can do depends on its purpose and the circumstances. If its use involves risk or uncertainty, apply [How Play Works](../playing-in-the-world/game-procedures-en.md).
 
 ## Food
 
@@ -56,7 +56,7 @@ Starting Food — zhaya, toqash, qurt, talqan, or a listed combination — lasts
 
 **Water, Food, and Fire** are determined separately during creation. Starting Water for 1 day occupies 0 slots; for 2 days, 1 slot; for 3 days, 2 slots and is Bulky.
 
-The contents of the Fire supply, how long it lasts, and the slots it occupies depend on the roll result and are listed in the [starting Supplies table](../../tables/starting-inventory-7d6-en.md#supplies-water-food-and-fire). Record the specific supplies and the number of Inventory Slots they occupy. The consequences of lacking food, water, or proper rest are described in [Game Procedures](../playing-in-the-world/game-procedures-en.md#load-and-conditions).
+The contents of the Fire supply, how long it lasts, and the slots it occupies depend on the roll result and are listed in the [starting Supplies table](../../tables/starting-inventory-7d6-en.md#supplies-water-food-and-fire). Record the specific supplies and the number of Inventory Slots they occupy. The consequences of lacking food, water, or proper rest are described in [How Play Works](../playing-in-the-world/game-procedures-en.md#load-and-conditions).
 
 ## Light Sources
 

@@ -115,7 +115,7 @@ Record the items in your character's Inventory. The total Inventory limit is **1
 
 An ordinary item occupies **1 Inventory Slot**, a **Bulky** item **2**, and a **Petty** item **0**, unless the item specifies otherwise. Worn equipment counts toward the limit. Items received through Bonds count toward the same Inventory limit.
 
-All received items are recorded and tracked according to [The Character in Play](character-in-play.md). The procedures for gaining Fatigue, becoming Deprived, and recovering are given in [Game Procedures](../playing-in-the-world/game-procedures-en.md).
+All received items are recorded and tracked according to [The Character in Play](character-in-play.md). The procedures for gaining Fatigue, becoming Deprived, and recovering are given in [How Play Works](../playing-in-the-world/game-procedures-en.md).
 
 ## Ability Scores
 
@@ -132,7 +132,7 @@ HP and Armor separately: armor reduces incoming Damage and does not increase
 HP. With all 10 Inventory Slots occupied, current HP is 0; keep the rolled
 maximum. Check the final number of occupied Inventory Slots before departing.
 
-Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [Game Procedures](../playing-in-the-world/game-procedures-en.md) and [Combat](../danger-and-combat/combat-en.md).
+Hit Protection is defined in [The Character in Play](character-in-play.md); its loss and recovery are covered in [How Play Works](../playing-in-the-world/game-procedures-en.md) and [Combat](../danger-and-combat/combat-en.md).
 
 ## Appearance and Traits
 

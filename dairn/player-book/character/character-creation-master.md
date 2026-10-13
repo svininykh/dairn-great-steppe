@@ -178,7 +178,7 @@
 Все полученные предметы записываются и учитываются по правилам из главы
 [«Персонаж в игре»](character-in-play.md).
 Процедуры получения Изнурения, состояния Изнурён и восстановления
-приведены в [«Процедурах игры»](../playing-in-the-world/game-procedures-master.md).
+приведены в [главе «Как проходит игра»](../playing-in-the-world/game-procedures-master.md).
 
 ## Сипаттамалар / Характеристики / Ability Scores
 
@@ -204,7 +204,7 @@
 
 Значение Защиты закреплено в главе
 [«Персонаж в игре»](character-in-play.md), а её потеря и восстановление —
-в [«Процедурах игры»](../playing-in-the-world/game-procedures-master.md) и главе
+в [главе «Как проходит игра»](../playing-in-the-world/game-procedures-master.md) и главе
 [«Схватка»](../danger-and-combat/combat-master.md).
 
 ## Образ и черты
