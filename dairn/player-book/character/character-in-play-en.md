@@ -4,7 +4,7 @@
 
 This chapter explains your character's main scores and states and how they
 work during play. General procedures for Turns, rest, treatment, and recovery
-are given in [Game Procedures](../playing-in-the-world/game-procedures.md),
+are given in [Game Procedures](../playing-in-the-world/game-procedures-en.md),
 while the sequence of combat actions is covered in
 [Combat](../danger-and-combat/combat-en.md).
 
@@ -137,7 +137,7 @@ the Check succeeds. If it is higher, the Check fails.
 `1` always succeeds, and `20` always fails.
 
 For more details on the procedure, see
-[Game Procedures](../playing-in-the-world/game-procedures.md#проверки-и-последствия).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#checks-and-consequences).
 
 A Check primarily determines whether the character avoids a dangerous
 consequence. It should not replace obvious actions or be used merely
@@ -161,7 +161,7 @@ at greatest risk makes the Check.
 If everyone faces equal risk, the character with the lowest relevant
 Ability Score usually makes the Check. The procedure for choosing who rolls
 when scores are equal, along with the consequences of a shared Check, is given in
-[Game Procedures](../playing-in-the-world/game-procedures.md#оказать-помощь).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#aid).
 
 ## Die of Fate
 
@@ -172,7 +172,7 @@ Roll `d6`. Usually, `4–6` means circumstances favor the characters,
 while `1–3` means events take an unfavorable turn.
 
 For more details on the procedure, see
-[Game Procedures](../playing-in-the-world/game-procedures.md#кубик-судьбы).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#die-of-fate).
 
 The Die of Fate is not an Ability Score Check and does not replace a STR,
 DEX, or WIL Check when the risk directly concerns the character's actions.
@@ -208,7 +208,7 @@ maximum HP is preserved. To recover HP, the character must free at least
 one slot, then rest and drink water. Recovery is impossible while Deprived.
 
 For detailed rest rules, see
-[Game Procedures](../playing-in-the-world/game-procedures.md#отдых).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#rest).
 
 ### Bag
 
@@ -321,7 +321,7 @@ Record current and maximum HP separately. The order for applying Damage
 is described below.
 
 The conditions for recovering Hit Protection are given in
-[Game Procedures](../playing-in-the-world/game-procedures.md#отдых).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#rest).
 
 ## Damage
 
@@ -372,7 +372,7 @@ The consequences of an Ability Score falling to zero are as follows:
 
 Reduced Ability Scores are usually restored after prolonged rest and suitable aid.
 Recovery requirements and times are given in
-[Game Procedures](../playing-in-the-world/game-procedures.md#восстановление).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#recovery).
 
 ## In Brief
 

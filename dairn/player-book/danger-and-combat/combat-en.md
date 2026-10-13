@@ -125,7 +125,7 @@ and involves no additional risk or uncertainty, no separate Check is needed.
 After stabilization, reduced Ability Scores and other consequences of the
 injury remain until the character recovers. Aid does not automatically
 restore STR. Recovery requirements and times are given in
-[Game Procedures](../playing-in-the-world/game-procedures.md#восстановление).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#recovery).
 
 ## Retreat
 
@@ -204,7 +204,7 @@ to `0`, the character becomes delirious and cannot act normally.
 A character who loses all their DEX or WIL remains incapacitated until
 the relevant Ability Score is restored. Recovery requirements are
 described in
-[Game Procedures](../playing-in-the-world/game-procedures.md#восстановление).
+[Game Procedures](../playing-in-the-world/game-procedures-en.md#recovery).
 
 ## Character Death
 
